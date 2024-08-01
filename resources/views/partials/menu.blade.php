@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar p-0 navbar-expand-lg">
             <div class="navbar-brand">
-                <a class="logo-default" href="#"><img alt="" src="{{ asset('assets/img/logo4.png') }}"></a>
+                <a class="logo-default" href="#"><img alt="" src="{{ asset('assets/img/logo3.png') }}"></a>
             </div>
             <span aria-expanded="false" class="navbar-toggler ml-auto collapsed" data-target="#ec-nav__collapsible" data-toggle="collapse">
         <div class="hamburger hamburger--spin js-hamburger">

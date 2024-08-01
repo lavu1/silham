@@ -4,7 +4,7 @@
             <div class="row">
 
                 <div class="col-lg-3 col-md-6 mt-5">
-                    <img src="{{ asset('assets/img/logo-white.png') }}" alt="Logo">
+                    <img src="{{ asset('assets/img/logo4.png') }}" alt="Logo">
                     <div class="margin-y-40">
                         <p>
                             Nunc placerat mi id nisi interdm they mtolis. Praesient is haretra justo ught scel erisque placer.
