@@ -1,43 +1,85 @@
 @extends('layouts.master')
 @section('page_title', 'Home')
 @section('content')
+<style>
+    .static-buttons {
+        position: absolute;
+        top: 85%;
+        left: 35%;
+        transform: translate(-50%, -50%);
+        z-index: 10;
+        display: flex;
+        gap: 10px;
+    }
 
+    @media (max-width: 768px) {
+        .static-buttons {
+            position: static;
+            transform: none;
+            margin: 1rem auto;
+            justify-content: center;
+        }
+        .carousel-inner {
+            margin-top: 2rem; /* Add margin to push down other elements */
+        }
+    }
+    .card-custom {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        background-color: #f8f9fa;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+
+    .card-custom:hover {
+        background-color: #e9ecef;
+    }
+
+    .arrow-icon {
+        font-size: 1.5rem;
+        color: #005aa6;
+    }
+
+</style>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <div class="static-buttons">
             <div class="row">
                 <div class="col-md-6 mb-0">
                     <div class="card-custom">
-                        <span>Medical & Healthcare</span>
+                        <a href="#" class="h4 mb-0"> <span>Medical & Healthcare</span> </a>
                         <span class="arrow-icon">&#9654;</span>
                     </div>
                 </div>
                 <div class="col-md-6 mb-0">
                     <div class="card-custom">
-                        <span>Software & Technology</span>
+                        <a href="#" class="h4 mb-0"> <span>Software & Technology</span> </a>
                         <span class="arrow-icon">&#9654;</span>
                     </div>
                 </div>
                 <div class="col-md-6 mb-0">
                     <div class="card-custom">
-                        <span>Retail & eCommerce</span>
+                        <a href="#" class="h4 mb-0"> <span>Retail & eCommerce</span> </a>
                         <span class="arrow-icon">&#9654;</span>
                     </div>
                 </div>
                 <div class="col-md-6 mb-0">
                     <div class="card-custom">
-                        <span>Finance & Insurance</span>
+                        <a href="#" class="h4 mb-0"> <span>Finance & Insurance</span> </a>
                         <span class="arrow-icon">&#9654;</span>
                     </div>
                 </div>
                 <div class="col-md-6 mb-0">
                     <div class="card-custom">
-                        <span>Education & Schools</span>
+                        <a href="#" class="h4 mb-0"> <span>Education & Schools</span> </a>
                         <span class="arrow-icon">&#9654;</span>
                     </div>
                 </div>
                 <div class="col-md-6 mb-0">
                     <div class="card-custom">
-                        <span>Charities & Not-for-profit</span>
+                        <a href="#" class="h4 mb-0"> <span>Charities & Not-for-profit</span> </a>
                         <span class="arrow-icon">&#9654;</span>
                     </div>
                 </div>
