@@ -1,1 +1,41 @@
-// Your customization code goes here  
+// Your customization code goes here
+
+.static-buttons {
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: flex;
+    gap: 10px;
+}
+@media (max-width: 768px) {
+    .static-buttons {
+        position: static;
+        transform: none;
+        margin: 1rem auto;
+        justify-content: center;
+    }
+
+    .carousel-inner {
+        margin-top: 2rem; /* Add margin to push down other elements */
+    }
+}
+
+.card-custom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.card-custom:hover {
+    background-color: #e9ecef;
+}
+.arrow-icon {
+    font-size: 1.5rem;
+    color: #005aa6;
+}

@@ -22,13 +22,13 @@
                     <h4 class="h5 text-white">Contact Us</h4>
                     <div class="width-3rem bg-primary height-3 mt-3"></div>
                     <ul class="list-unstyled marginTop-40">
-                        <li class="mb-3"><i class="ti-headphone mr-3"></i><a href="tel:+8801740411513">800 567.890.576 </a></li>
-                        <li class="mb-3"><i class="ti-email mr-3"></i><a href="mailto:support@educati.com">support@educati.com</a></li>
+                        <li class="mb-3"><i class="ti-headphone mr-3"></i><a href="tel:+8801740411513">+260999999999 </a></li>
+                        <li class="mb-3"><i class="ti-email mr-3"></i><a href="mailto:support@educati.com">support@silham.com</a></li>
                         <li class="mb-3">
                             <div class="media">
                                 <i class="ti-location-pin mt-2 mr-3"></i>
                                 <div class="media-body">
-                                    <span> 184 Main Collins Street Chicago, United States</span>
+                                    <span> 184 Main Collins Street , Ndola Zambia</span>
                                 </div>
                             </div>
                         </li>
@@ -39,12 +39,12 @@
                     <h4 class="h5 text-white">Quick links</h4>
                     <div class="width-3rem bg-primary height-3 mt-3"></div>
                     <ul class="list-unstyled marginTop-40">
-                        <li class="mb-2"><a href="page-about.html">About Us</a></li>
-                        <li class="mb-2"><a href="page-contact.html">Contact Us</a></li>
-                        <li class="mb-2"><a href="page-sp-student-profile.html">Students</a></li>
-                        <li class="mb-2"><a href="page-sp-admission-apply.html">Admission</a></li>
-                        <li class="mb-2"><a href="page-events.html">Events</a></li>
-                        <li class="mb-2"><a href="blog-card.html">Latest News</a></li>
+                        <li class="mb-2"><a href="#">About Us</a></li>
+                        <li class="mb-2"><a href="#">Contact Us</a></li>
+                        <li class="mb-2"><a href="#">FQs</a></li>
+                        <li class="mb-2"><a href="#">Services</a></li>
+                        <li class="mb-2"><a href=#">Blogs</a></li>
+                        <li class="mb-2"><a href="#">Latest News</a></li>
                     </ul>
                 </div>
 
@@ -70,7 +70,7 @@
 
     <div class="footer-bottom bg-black-0_9 py-5 text-center">
         <div class="container">
-            <p class="text-white-0_5 mb-0">&copy; 2018 Educati. All rights reserved. Created by <a href="http://echotheme.com" target="_blunk">EchoTheme</a></p>
+            <p class="text-white-0_5 mb-0">&copy; 2024 Silham. All rights reserved. Created by <a href="#" target="_blunk">Silham Dev</a></p>
         </div>
     </div>  <!-- END footer-bottom-->
 </footer> <!-- END site-footer -->
