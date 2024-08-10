@@ -75,16 +75,16 @@
                     <h4 class="h5">We provide the following:</h4>
                     <ul class="list-unstyled list-style-icon list-icon-check-circle">
                         <li>
-                            Outsourced Data Protection Officer (DPO) Services
+                            <a class="link" href="#"> Outsourced Data Protection Officer (DPO) Services </a>
                         </li>
                         <li>
-                            Data Protection and Privacy Consulting Services
+                            <a class="link" href="#"> Data Protection and Privacy Consulting Services  </a>
                         </li>
                         <li>
-                            Data Protection Awareness and Training Services
+                            <a class="link" href="#"> Data Protection Awareness and Training Services  </a>
                         </li>
                         <li>
-                            Data Protection Auditor Services
+                            <a class="link" href="#"> Data Protection Auditor Services  </a>
                         </li>
                     </ul>
                 </div> <!-- END col-lg-6 ml-auto-->
@@ -109,25 +109,39 @@
                     </h2>
                     <div class="width-4rem height-4 bg-primary rounded mt-4 marginBottom-40 mx-auto"></div>
                 </div>
-                <div class="col-lg-4 col-md-6 mt-5 wow slideInUp" data-wow-delay=".1s">
-                    <div class="media">
-                        <div class="iconbox iconbox-lg rounded font-size-24 bg-primary text-white mt-2">
-                            <i class="ti-pencil-alt"></i>
-                        </div>
-                        <div class="media-body ml-4">
-                            <h4 class="mt-0 mb-3">
-                                Mission
-                            </h4>
-                            <p>
-                                We will delight our customers with exceptional quality consultancy and
-                                training services in the areas of our service delivery, while helping them meet
-                                their business objectives.
-                            </p>
-                        </div>
+                {{--                <div class="col-lg-4 col-md-6 mt-5 wow slideInUp" data-wow-delay=".1s">--}}
+                {{--                    <div class="media">--}}
+                {{--                        <div class="iconbox iconbox-lg rounded font-size-24 bg-primary text-white mt-2">--}}
+                {{--                            <i class="ti-pencil-alt"></i>--}}
+                {{--                        </div>--}}
+                {{--                        <div class="media-body ml-4">--}}
+                {{--                            <h4 class="mt-0 mb-3">--}}
+                {{--                                Mission--}}
+                {{--                            </h4>--}}
+                {{--                            <p>--}}
+                {{--                                We will delight our customers with exceptional quality consultancy and--}}
+                {{--                                training services in the areas of our service delivery, while helping them meet--}}
+                {{--                                their business objectives.--}}
+                {{--                            </p>--}}
+                {{--                        </div>--}}
+                {{--                    </div>--}}
+                {{--                </div>--}}
+                <div class="col-md-6 mt-4 text-center">
+                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
+                        <i class="ti-bookmark-alt text-primary"></i>
+                    </div>
+                    <div class="media-body ml-4">
+                        <h4 class="mt-0 mb-3">
+                            Mission
+                        </h4>
+                        <p>
+                            We will delight our customers with exceptional quality consultancy and
+                            training services in the areas of our service delivery, while helping them meet
+                            their business objectives.
+                        </p>
                     </div>
                 </div>
-
-                <div class="col-md-4 mt-4 text-center">
+                <div class="col-md-6 mt-4 text-center">
                     <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
                         <i class="ti-bookmark-alt text-primary"></i>
                     </div>
@@ -141,71 +155,85 @@
                         </p>
                     </div>
                 </div>
+            </div>
+            <div class="row align-items-center mt-5">
 
-                <div class="col-md-4 mt-4 text-center">
+                <div class="col-12 text-center">
+                    <h6>
+                        Core Values
+                    </h6>
+                    <div class="width-4rem height-4 bg-primary rounded mt-4 marginBottom-40 mx-auto"></div>
+                </div>
+                {{--                <div class="col-md-4 mt-4 text-center">--}}
+                {{--                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">--}}
+                {{--                        <i class="ti-bookmark-alt text-primary"></i>--}}
+                {{--                    </div>--}}
+                {{--                    <h4 class="my-4">--}}
+                {{--                        Professionalism--}}
+                {{--                    </h4>--}}
+                {{--                    <p>--}}
+                {{--                        We will be professional in the conduct of our business--}}
+                {{--                        with all our customers and key stakeholders, adhering to the tenets of--}}
+                {{--                        various professions our staff and consultancy partners belong to in all our--}}
+                {{--                        business dealings.--}}
+                {{--                    </p>--}}
+                {{--                </div>--}}
+                <div class="col-md-3 mt-4 text-center">
                     <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
                         <i class="ti-bookmark-alt text-primary"></i>
                     </div>
-                    <p class="small"> cole value</p>
-                    <h4 class="my-4">
-                        Professionalism
-                    </h4>
-                    <p>
-                        We will be professional in the conduct of our business
-                        with all our customers and key stakeholders, adhering to the tenets of
-                        various professions our staff and consultancy partners belong to in all our
-                        business dealings.
-                    </p>
+                    <div class="media-body ml-4">
+                        <h4 class="mt-0 mb-3">
+                            Professionalism
+                        </h4>
+                        <p>
+                            Investig ationes demons travg vunt lectores legere lyrus quod legunt saepius claritas
+                            est.
+                        </p>
+                    </div>
                 </div>
-
-                <div class="col-lg-4 col-md-6 mt-5 wow slideInUp" data-wow-delay=".1s">
-                    <div class="media">
-                        <div class="iconbox iconbox-lg rounded font-size-24 bg-primary text-white mt-2">
-                            <i class="ti-wand"></i>
-                        </div>
-                        <div class="media-body ml-4">
-                            <h4 class="mt-0 mb-3">
-                                MicroMasters Programs
-                            </h4>
-                            <p>
-                                Investig ationes demons travg vunt lectores legere lyrus quod legunt saepius claritas
-                                est.
-                            </p>
-                        </div>
+                <div class="col-md-3 mt-4 text-center">
+                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
+                        <i class="ti-bookmark-alt text-primary"></i>
+                    </div>
+                    <div class="media-body ml-4">
+                        <h4 class="mt-0 mb-3">
+                            MicroMasters Programs
+                        </h4>
+                        <p>
+                            Investig ationes demons travg vunt lectores legere lyrus quod legunt saepius claritas
+                            est.
+                        </p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mt-5 wow slideInUp" data-wow-delay=".2s">
-                    <div class="media">
-                        <div class="iconbox iconbox-lg rounded font-size-24 bg-primary text-white mt-2">
-                            <i class="ti-book"></i>
-                        </div>
-                        <div class="media-body ml-4">
-                            <h4 class="mt-0 mb-3">
-                                XSeries Programs
-                            </h4>
-                            <p>
-                                Investig ationes demons travg vunt lectores legere lyrus quod legunt saepius claritas
-                                est.
-                            </p>
-                        </div>
+                <div class="col-md-3 mt-4 text-center">
+                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
+                        <i class="ti-bookmark-alt text-primary"></i>
+                    </div>
+                    <div class="media-body ml-4">
+                        <h4 class="mt-0 mb-3">
+                            XSeries Programs
+                        </h4>
+                        <p>
+                            Investig ationes demons travg vunt lectores legere lyrus quod legunt saepius claritas
+                            est.
+                        </p>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 mt-5 wow slideInUp" data-wow-delay=".3s">
-                    <div class="media">
-                        <div class="iconbox iconbox-lg rounded font-size-24 bg-primary text-white mt-2">
-                            <i class="ti-ruler-pencil"></i>
-                        </div>
-                        <div class="media-body ml-4">
-                            <h4 class="mt-0 mb-3">
-                                Take The Tour
-                            </h4>
-                            <p>
-                                Investig ationes demons travg vunt lectores legere lyrus quod legunt saepius claritas
-                                est.
-                            </p>
-                        </div>
+                <div class="col-md-3 mt-4 text-center">
+                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
+                        <i class="ti-bookmark-alt text-primary"></i>
+                    </div>
+                    <div class="media-body ml-4">
+                        <h4 class="mt-0 mb-3">
+                            Take The Tour
+                        </h4>
+                        <p>
+                            Investig ationes demons travg vunt lectores legere lyrus quod legunt saepius claritas
+                            est.
+                        </p>
                     </div>
                 </div>
 
@@ -391,68 +419,68 @@
                     </p>
                     <ul class="list-unstyled list-style-icon list-icon-angle-right">
                         <li>
-                            Banking and Finance
+                            <a class="link" href="#"> Banking and Finance </a>
                         </li>
                         <li>
-                            Pension and Insurance
+                            <a class="link" href="#"> Pension and Insurance </a>
                         </li>
                         <li>
-                            Medical and Healthcare
+                            <a class="link" href="#"> Medical and Healthcare </a>
                         </li>
                         <li>
-                            Software and Technology
+                            <a class="link" href="#"> Software and Technology </a>
                         </li>
                         <li>
-                            Education and Schools
+                            <a class="link" href="#"> Education and Schools </a>
                         </li>
                         <li>
-                            Charities and Non-Governmental Organisations
+                            <a class="link" href="#"> Charities and Non-Governmental Organisations </a>
                         </li>
                     </ul>
                 </div> <!-- END col-lg-6-->
                 <div class="col-md-6 mt-4">
                     <div class="mb-4">
-                        <div class="d-flex justify-content-between">
-                            <p>HTML &amp; CSS</p>
-                            <p>90%</p>
-                        </div>
-                        <div class="progress" style="height:4px">
-                            <div class="progress-bar bg-primary" style="width:90%" role="progressbar" aria-valuenow="90"
-                                 aria-valuemin="90" aria-valuemax="100"></div>
-                        </div>
+{{--                        <div class="d-flex justify-content-between">--}}
+{{--                            <p>HTML &amp; CSS</p>--}}
+{{--                            <p>90%</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="progress" style="height:4px">--}}
+{{--                            <div class="progress-bar bg-primary" style="width:90%" role="progressbar" aria-valuenow="90"--}}
+{{--                                 aria-valuemin="90" aria-valuemax="100"></div>--}}
+{{--                        </div>--}}
                     </div>
 
                     <div class="mb-4">
-                        <div class="d-flex justify-content-between">
-                            <p>React angular</p>
-                            <p>75%</p>
-                        </div>
-                        <div class="progress" style="height:4px">
-                            <div class="progress-bar bg-success" role="progressbar" style="width: 75%"
-                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+{{--                        <div class="d-flex justify-content-between">--}}
+{{--                            <p>React angular</p>--}}
+{{--                            <p>75%</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="progress" style="height:4px">--}}
+{{--                            <div class="progress-bar bg-success" role="progressbar" style="width: 75%"--}}
+{{--                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>--}}
+{{--                        </div>--}}
                     </div>
 
                     <div class="mb-4">
-                        <div class="d-flex justify-content-between">
-                            <p>PHP</p>
-                            <p>80%</p>
-                        </div>
-                        <div class="progress mb-4" style="height:4px">
-                            <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80"
-                                 aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+{{--                        <div class="d-flex justify-content-between">--}}
+{{--                            <p>PHP</p>--}}
+{{--                            <p>80%</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="progress mb-4" style="height:4px">--}}
+{{--                            <div class="progress-bar bg-info" role="progressbar" style="width: 80%" aria-valuenow="80"--}}
+{{--                                 aria-valuemin="0" aria-valuemax="100"></div>--}}
+{{--                        </div>--}}
                     </div>
 
                     <div class="mb-4">
-                        <div class="d-flex justify-content-between">
-                            <p>Laravel</p>
-                            <p>75%</p>
-                        </div>
-                        <div class="progress mb-4" style="height:4px">
-                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"
-                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
+{{--                        <div class="d-flex justify-content-between">--}}
+{{--                            <p>Laravel</p>--}}
+{{--                            <p>75%</p>--}}
+{{--                        </div>--}}
+{{--                        <div class="progress mb-4" style="height:4px">--}}
+{{--                            <div class="progress-bar bg-warning" role="progressbar" style="width: 75%"--}}
+{{--                                 aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
             </div> <!-- END row-->
@@ -466,7 +494,7 @@
 
                 <div class="col-12 text-center mb-5">
                     <h4 class="text-white">
-                        What Our People Say
+                        Message from our director
                     </h4>
                 </div>
 
@@ -478,10 +506,10 @@
                             <img class="iconbox iconbox-xxxl mx-auto z-index-10" src="assets/img/avatar/4.jpg" alt="">
                             <div class="my-4">
                                 <h6>
-                                    Kenelia Deshmukh
+                                    Mr J Silungwe
                                 </h6>
                                 <p class="text-gray mb-0">
-                                    Creative Director
+                                    Director
                                 </p>
                             </div>
                             <p class="mb-0 lead text-dark">
@@ -491,39 +519,39 @@
                             </p>
                         </div>
 
-                        <div class="card card-body p-lg-5 text-center">
-                            <img class="iconbox iconbox-xxxl mx-auto z-index-10" src="assets/img/avatar/5.jpg" alt="">
-                            <div class="my-4">
-                                <h6>
-                                    Kenelia Deshmukh
-                                </h6>
-                                <p class="text-gray mb-0">
-                                    Creative Director
-                                </p>
-                            </div>
-                            <p class="mb-0 lead text-dark">
-                                Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem por
-                                legere me doming vulputate velit esse molestie possim. Ut wisi enim ad placerat facer Ut
-                                wisi enim ad placerat facer.
-                            </p>
-                        </div>
+{{--                        <div class="card card-body p-lg-5 text-center">--}}
+{{--                            <img class="iconbox iconbox-xxxl mx-auto z-index-10" src="assets/img/avatar/5.jpg" alt="">--}}
+{{--                            <div class="my-4">--}}
+{{--                                <h6>--}}
+{{--                                    Kenelia Deshmukh--}}
+{{--                                </h6>--}}
+{{--                                <p class="text-gray mb-0">--}}
+{{--                                    Creative Director--}}
+{{--                                </p>--}}
+{{--                            </div>--}}
+{{--                            <p class="mb-0 lead text-dark">--}}
+{{--                                Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem por--}}
+{{--                                legere me doming vulputate velit esse molestie possim. Ut wisi enim ad placerat facer Ut--}}
+{{--                                wisi enim ad placerat facer.--}}
+{{--                            </p>--}}
+{{--                        </div>--}}
 
-                        <div class="card card-body p-lg-5 text-center">
-                            <img class="iconbox iconbox-xxxl mx-auto z-index-10" src="assets/img/avatar/6.jpg" alt="">
-                            <div class="my-4">
-                                <h6>
-                                    Ema Watson
-                                </h6>
-                                <p class="text-gray mb-0">
-                                    Creative Director
-                                </p>
-                            </div>
-                            <p class="mb-0 lead text-dark">
-                                Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem por
-                                legere me doming vulputate velit esse molestie possim. Ut wisi enim ad placerat facer Ut
-                                wisi enim ad placerat facer.
-                            </p>
-                        </div>
+{{--                        <div class="card card-body p-lg-5 text-center">--}}
+{{--                            <img class="iconbox iconbox-xxxl mx-auto z-index-10" src="assets/img/avatar/6.jpg" alt="">--}}
+{{--                            <div class="my-4">--}}
+{{--                                <h6>--}}
+{{--                                    Ema Watson--}}
+{{--                                </h6>--}}
+{{--                                <p class="text-gray mb-0">--}}
+{{--                                    Creative Director--}}
+{{--                                </p>--}}
+{{--                            </div>--}}
+{{--                            <p class="mb-0 lead text-dark">--}}
+{{--                                Nam liber tempor cum soluta nobis eleifend option congue is nihil imper per tem por--}}
+{{--                                legere me doming vulputate velit esse molestie possim. Ut wisi enim ad placerat facer Ut--}}
+{{--                                wisi enim ad placerat facer.--}}
+{{--                            </p>--}}
+{{--                        </div>--}}
 
                     </div>
                 </div> <!-- END col-12 -->

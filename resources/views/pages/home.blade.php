@@ -1,92 +1,7 @@
 @extends('layouts.master')
 @section('page_title', 'Home')
 @section('content')
-<style>
-    .static-buttons {
-        position: absolute;
-        top: 85%;
-        left: 35%;
-        transform: translate(-50%, -50%);
-        z-index: 10;
-        display: flex;
-        gap: 10px;
-    }
-
-    @media (max-width: 768px) {
-        .static-buttons {
-            position: static;
-            transform: none;
-            margin: 1rem auto;
-            justify-content: center;
-        }
-        .carousel-inner {
-            margin-top: 2rem; /* Add margin to push down other elements */
-        }
-    }
-    .card-custom {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 1rem;
-        background-color: #f8f9fa;
-        border: 1px solid #ddd;
-        border-radius: 5px;
-        margin-bottom: 1rem;
-    }
-
-    .card-custom:hover {
-        background-color: #e9ecef;
-    }
-
-    .arrow-icon {
-        font-size: 1.5rem;
-        color: #005aa6;
-    }
-
-</style>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <div class="static-buttons">
-            <div class="row">
-                <div class="col-md-6 mb-0">
-                    <div class="card-custom">
-                        <a href="#" class="h4 mb-0"> <span>Medical & Healthcare</span> </a>
-                        <span class="arrow-icon">&#9654;</span>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-0">
-                    <div class="card-custom">
-                        <a href="#" class="h4 mb-0"> <span>Software & Technology</span> </a>
-                        <span class="arrow-icon">&#9654;</span>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-0">
-                    <div class="card-custom">
-                        <a href="#" class="h4 mb-0"> <span>Retail & eCommerce</span> </a>
-                        <span class="arrow-icon">&#9654;</span>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-0">
-                    <div class="card-custom">
-                        <a href="#" class="h4 mb-0"> <span>Finance & Insurance</span> </a>
-                        <span class="arrow-icon">&#9654;</span>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-0">
-                    <div class="card-custom">
-                        <a href="#" class="h4 mb-0"> <span>Education & Schools</span> </a>
-                        <span class="arrow-icon">&#9654;</span>
-                    </div>
-                </div>
-                <div class="col-md-6 mb-0">
-                    <div class="card-custom">
-                        <a href="#" class="h4 mb-0"> <span>Charities & Not-for-profit</span> </a>
-                        <span class="arrow-icon">&#9654;</span>
-                    </div>
-                </div>
-            </div>
-            {{--            <button class="btn btn-primary">Button 1</button>--}}
-            {{--            <button class="btn btn-secondary">Button 2</button>--}}
-        </div>
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -106,14 +21,16 @@
                             <h2 class="display-lg-4 font-weight-bold text-white animated slideInUp mb-0">
                                 Raising Awareness through Data Protection Awareness Workshops
                             </h2>
-                            {{--                            <h1 class="display-lg-3 font-weight-bold text-primary animated slideInUp">--}}
-                            {{--                                College / University--}}
-                            {{--                            </h1>--}}
-                            {{--                            <p class="font-size-md-18 animated slideInUp">--}}
-                            {{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.--}}
-                            {{--                            </p>--}}
-                            {{--                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read more</a>--}}
-                            {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
+                            <p class="font-size-md-18 animated slideInUp">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
+                            </p>
+                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read more</a>
+                            {{--                                                        <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
                     </div>
                 </div>
@@ -129,13 +46,15 @@
                                 Building Capacity for Compliance Readiness through Advanced Data
                                 Protection Training
                             </h2>
-                            {{--                            <h1 class="display-lg-3 font-weight-bold text-primary animated slideInUp">--}}
-                            {{--                                college / university--}}
-                            {{--                            </h1>--}}
-                            {{--                            <p class="font-size-md-18 animated slideInUp">--}}
-                            {{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.--}}
-                            {{--                            </p>--}}
-                            {{--                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>--}}
+                            <p class="font-size-md-18 animated slideInUp">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
+                            </p>
+                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
                     </div>
@@ -152,13 +71,15 @@
                             <h4 class="display-lg-4 font-weight-bold text-white animated slideInUp">
                                 Achieving Compliance through Outsourced Data Protection Services
                             </h4>
-                            {{--                            <h2 class="display-lg-3 font-weight-bold text-primary animated slideInUp">--}}
-                            {{--                                college / university--}}
-                            {{--                            </h2>--}}
-                            {{--                            <p class="font-size-md-18 animated slideInUp">--}}
-                            {{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.--}}
-                            {{--                            </p>--}}
-                            {{--                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>--}}
+                            <p class="font-size-md-18 animated slideInUp">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
+                            </p>
+                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
                     </div>
@@ -176,10 +97,15 @@
                             {{--                            <h2 class="display-lg-3 font-weight-bold text-primary animated slideInUp">--}}
                             {{--                                college / university--}}
                             {{--                            </h2>--}}
-                            {{--                            <p class="font-size-md-18 animated slideInUp">--}}
-                            {{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.--}}
-                            {{--                            </p>--}}
-                            {{--                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read more</a>--}}
+                            <p class="font-size-md-18 animated slideInUp">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
+                            </p>
+                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read more</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
                     </div>
@@ -197,10 +123,15 @@
                             {{--                            <h2 class="display-lg-3 font-weight-bold text-primary animated slideInUp">--}}
                             {{--                                college / university--}}
                             {{--                            </h2>--}}
-                            {{--                            <p class="font-size-md-18 animated slideInUp">--}}
-                            {{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.--}}
-                            {{--                            </p>--}}
-                            {{--                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>--}}
+                            <p class="font-size-md-18 animated slideInUp">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                                mollit anim id est laborum.
+                            </p>
+                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
                     </div>
@@ -226,87 +157,64 @@
                     <div class="width-3rem height-4 rounded bg-primary mx-auto"></div>
                 </div>
             </div> <!-- END row-->
-
-            <div class="row mt-4">
-
-
-                <div class="col-lg-3 col-md-6 marginTop-30 wow slideInUp" data-wow-delay=".1s"
-                     style="visibility: visible; animation-delay: 0.1s; animation-name: slideInUp;">
-                    <div class="card padding-30 shadow-v1">
-                        <p class="text-primary">
-                            Aug 13, 2018
-                        </p>
-                        <a href="#" class="h4 mb-3">
-                            Outsourced Data Protection Officers
-                        </a>
-                        <p>
-                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas
-                            ekist conse tetur adipi sicing elit, sed kdo.
-                        </p>
-                        <a href="#" class="btn btn-outline-primary align-self-start mt-2">
-                            Read More
-                        </a>
+            <div class="row">
+                <div class="col-md-3 mt-4 text-center shadow-primary--onHover">
+                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
+                        <i class="ti-bookmark-alt text-primary text-center"></i>
                     </div>
+                    <h4 class="my-4">
+                        Outsourced Data Protection Officers
+                    </h4>
+                    <p>
+                        Investig ationes demons travg ectores legere lrus quod legunt saepius.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary align-self-start mt-2 mb-3 p-3">
+                        Read More
+                    </a>
                 </div>
-
-                <div class="col-lg-3 col-md-6 marginTop-30 wow slideInUp" data-wow-delay=".2s"
-                     style="visibility: visible; animation-delay: 0.2s; animation-name: slideInUp;">
-                    <div class="card padding-30 shadow-v1">
-                        <p class="text-primary">
-                            Aug 13, 2018
-                        </p>
-                        <a href="#" class="h4 mb-3">
-                            Data Protection Training
-                        </a>
-                        <p>
-                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas
-                            ekist conse tetur adipi sicing elit, sed kdo.
-                        </p>
-                        <a href="#" class="btn btn-outline-primary align-self-start mt-2">
-                            Read More
-                        </a>
+                <div class="col-md-3 mt-4 text-center shadow-primary--onHover">
+                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
+                        <i class="ti-bookmark-alt text-primary text-center"></i>
                     </div>
+                    <h4 class="my-4">
+                        Data Protection Training
+                    </h4>
+                    <p>
+                        Investig ationes demons travg ectores legere lrus quod legunt saepius.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary align-self-start mt-2 mb-3 p-3">
+                        Read More
+                    </a>
                 </div>
-
-                <div class="col-lg-3 col-md-6 marginTop-30 wow slideInUp" data-wow-delay=".3s"
-                     style="visibility: visible; animation-delay: 0.3s; animation-name: slideInUp;">
-                    <div class="card padding-30 shadow-v1">
-                        <p class="text-primary">
-                            Aug 13, 2018
-                        </p>
-                        <a href="#" class="h4 mb-3">
-                            Data Protection Consultancy
-                        </a>
-                        <p>
-                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas
-                            ekist conse tetur adipi sicing elit, sed kdo.
-                        </p>
-                        <a href="#" class="btn btn-outline-primary align-self-start mt-2">
-                            Read More
-                        </a>
+                <div class="col-md-3 mt-4 text-center shadow-primary--onHover">
+                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
+                        <i class="ti-bookmark-alt text-primary text-center"></i>
                     </div>
+                    <h4 class="my-4">
+                        Data Protection Consultancy
+                    </h4>
+                    <p>
+                        Investig ationes demons travg ectores legere lrus quod legunt saepius.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary align-self-start mt-2 mb-3 p-3">
+                        Read More
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-6 marginTop-30 wow slideInUp" data-wow-delay=".3s"
-                     style="visibility: visible; animation-delay: 0.3s; animation-name: slideInUp;">
-                    <div class="card padding-30 shadow-v1">
-                        <p class="text-primary">
-                            Aug 13, 2018
-                        </p>
-                        <a href="#" class="h4 mb-3">
-                            Data Audit
-                        </a>
-                        <p>
-                            Investig ationes demons trave sed vunt lectores legere do kurus qodk legunt saepiu claritas
-                            ekist conse tetur adipi sicing elit, sed kdo.
-                        </p>
-                        <a href="#" class="btn btn-outline-primary align-self-start mt-2">
-                            Read More
-                        </a>
+                <div class="col-md-3 mt-4 text-center shadow-primary--onHover">
+                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
+                        <i class="ti-bookmark-alt text-primary text-center"></i>
                     </div>
+                    <h4 class="my-4">
+                        Data Audit
+                    </h4>
+                    <p>
+                        Investig ationes demons travg ectores legere lrus quod legunt saepius.
+                    </p>
+                    <a href="#" class="btn btn-outline-primary align-self-start mt-2 mb-3 p-3">
+                        Read More
+                    </a>
                 </div>
-
-
-            </div> <!-- END row-->
+            </div>
         </div> <!-- END container-->
     </section>
 
@@ -337,7 +245,7 @@
                             To be the brand of choice in our chosen service markets in Zambia and
                             in the region
                         </p>
-{{--                        <a href="#" class="btn btn-white mt-4">Apply now</a>--}}
+                        {{--                        <a href="#" class="btn btn-white mt-4">Apply now</a>--}}
                     </div>
                 </div>
             </div>
@@ -345,176 +253,6 @@
     </section>
 
 
-    <section class="padding-y-100">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-12 text-center mb-4">
-                    <h2 class="mb-4">
-                        Data Sources
-                    </h2>
-                    <div class="width-3rem height-4 rounded bg-primary mx-auto"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 mt-4 text-center shadow-primary--onHover">
-                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
-                        <i class="ti-bookmark-alt text-primary text-center"></i>
-                    </div>
-                    <h4 class="my-4">
-                        Raising Awareness through Data Protection Awareness Workshops
-                    </h4>
-                    <p>
-                        Investig ationes demons travg ectores legere lrus quod legunt saepius.
-                    </p>
-                    <a href="#" class="btn btn-outline-primary align-self-start mt-2 mb-3 p-3">
-                        Read More
-                    </a>
-                </div>
-                <div class="col-md-4 mt-4 text-center shadow-primary--onHover">
-                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
-                        <i class="ti-bookmark-alt text-primary text-center"></i>
-                    </div>
-                    <h4 class="my-4">
-                        Building Capacity for Compliance Readiness through Advanced Data
-                        Protection Training
-                    </h4>
-                    <p>
-                        Investig ationes demons travg ectores legere lrus quod legunt saepius.
-                    </p>
-                    <a href="#" class="btn btn-outline-primary align-self-start mt-2 mb-3 p-3">
-                        Read More
-                    </a>
-                </div>
-                <div class="col-md-4 mt-4 text-center shadow-primary--onHover">
-                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
-                        <i class="ti-bookmark-alt text-primary text-center"></i>
-                    </div>
-                    <h4 class="my-4">
-                        A collection of Innovative and Inspiring Resources
-                    </h4>
-                    <p>
-                        Investig ationes demons travg ectores legere lrus quod legunt saepius.
-                    </p>
-                    <a href="#" class="btn btn-outline-primary align-self-start mt-2 mb-3 p-3">
-                        Read More
-                    </a>
-                </div>
-                <div class="col-md-4 mt-4 text-center shadow-primary--onHover">
-                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
-                        <i class="ti-bookmark-alt text-primary text-center"></i>
-                    </div>
-                    <h4 class="my-4">
-                        Achieving Compliance through Outsourced Data Protection Services
-                    </h4>
-                    <p>
-                        Investig ationes demons travg ectores legere lrus quod legunt saepius.
-                    </p>
-                    <a href="#" class="btn btn-outline-primary align-self-start mt-2 mb-3 p-3">
-                        Read More
-                    </a>
-                </div>
-                <div class="col-md-4 mt-4 text-center shadow-primary--onHover">
-                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
-                        <i class="ti-bookmark-alt text-primary text-center"></i>
-                    </div>
-                    <h4 class="my-4">
-                        Demonstrating Compliance through Data Audits
-                    </h4>
-                    <p>
-                        Investig ationes demons travg ectores legere lrus quod legunt saepius.
-                    </p>
-                    <a href="#" class="btn btn-outline-primary align-self-start mt-2 mb-3 p-3">
-                        Read More
-                    </a>
-                </div>
-                <div class="col-md-4 mt-4 text-center shadow-primary--onHover">
-                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
-                        <i class="ti-bookmark-alt text-primary text-center"></i>
-                    </div>
-                    <h4 class="my-4">
-                        Managing Risk through Data Protection Impact Assessments
-                    </h4>
-                    <p>
-                        Investig ationes demons travg ectores legere lrus quod legunt saepius.
-                    </p>
-                    <a href="#" class="btn btn-outline-primary align-self-start mt-2 mb-3 p-3">
-                        Read More
-                    </a>
-                </div>
-
-            </div> <!-- END row-->
-        </div> <!-- END container-->
-    </section>
-
-    <section class="paddingTop-100">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2 class="mb-4">
-                        Partners
-                    </h2>
-                    <div class="width-3rem height-4 rounded bg-primary mx-auto"></div>
-                </div>
-            </div> <!-- END row-->
-
-            <div class="row marginTop-60">
-                <div class="owl-carousel arrow-edge arrow-black" data-items="4" data-arrow="true" data-tablet-items="2"
-                     data-mobile-items="1">
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/1.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/1.jpg" data-fancybox="gallery1"
-                               class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/2.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/2.jpg" data-fancybox="gallery1"
-                               class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/3.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/3.jpg" data-fancybox="gallery1"
-                               class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/4.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/4.jpg" data-fancybox="gallery1"
-                               class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/2.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/2.jpg" data-fancybox="gallery1"
-                               class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/3.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/3.jpg" data-fancybox="gallery1"
-                               class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                    <div class="hover:parent">
-                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/4.jpg" alt="">
-                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
-                            <a href="assets/img/school/4.jpg" data-fancybox="gallery1"
-                               class="iconbox bg-white ti-zoom-in text-primary"></a>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- END row-->
-
-        </div> <!-- END container-->
-    </section>
 
     <section class="padding-y-60 bg-light">
         <div class="container">
@@ -525,7 +263,8 @@
                     </h2>
                     <div class="width-3rem height-4 rounded bg-primary mx-auto"></div>
                 </div>
-            </div><a href="#" class="btn btn-primary mx-2 mt-3 text-center">View all Blogs</a>
+            </div>
+            <a href="#" class="btn btn-primary mx-2 mt-3 text-center">View all Blogs</a>
 
             <div class="row">
 
@@ -599,9 +338,10 @@
                         What type of personal information do we collect?
                     </h2>
                     <p class="font-size-18">
-                        Investig tiones demons travge wunt ectores legere lkurus quod legunt saepiu clartas est consectetur adipi sicing elitsed kdo eusmod tempor cididunt wuti labore.
+                        Investig tiones demons travge wunt ectores legere lkurus quod legunt saepiu clartas est
+                        consectetur adipi sicing elitsed kdo eusmod tempor cididunt wuti labore.
                     </p>
-{{--                    <a href="#" class="btn btn-white mx-2 mt-3">Take The Tour</a>--}}
+                    {{--                    <a href="#" class="btn btn-white mx-2 mt-3">Take The Tour</a>--}}
                     <a href="#" class="btn btn-outline-white mx-2 mt-3">Read More</a>
                 </div>
             </div> <!-- END row-->
@@ -617,7 +357,8 @@
                     </h2>
                     <div class="width-3rem height-4 rounded bg-primary mx-auto"></div>
                 </div>
-            </div><a href="#" class="btn btn-primary mx-2 mt-3 text-center">View all Events</a>
+            </div>
+            <a href="#" class="btn btn-primary mx-2 mt-3 text-center">View all Events</a>
 
             <div class="row">
 
@@ -669,6 +410,75 @@
                     </div>
                 </div>
             </div> <!-- END row-->
+        </div> <!-- END container-->
+    </section>
+
+    <section class="paddingTop-100">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="mb-4">
+                        Partners
+                    </h2>
+                    <div class="width-3rem height-4 rounded bg-primary mx-auto"></div>
+                </div>
+            </div> <!-- END row-->
+
+            <div class="row marginTop-60">
+                <div class="owl-carousel arrow-edge arrow-black" data-items="4" data-arrow="true" data-tablet-items="2"
+                     data-mobile-items="1">
+                    <div class="hover:parent">
+                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/1.jpg" alt="">
+                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                            <a href="assets/img/school/1.jpg" data-fancybox="gallery1"
+                               class="iconbox bg-white ti-zoom-in text-primary"></a>
+                        </div>
+                    </div>
+                    <div class="hover:parent">
+                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/2.jpg" alt="">
+                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                            <a href="assets/img/school/2.jpg" data-fancybox="gallery1"
+                               class="iconbox bg-white ti-zoom-in text-primary"></a>
+                        </div>
+                    </div>
+                    <div class="hover:parent">
+                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/3.jpg" alt="">
+                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                            <a href="assets/img/school/3.jpg" data-fancybox="gallery1"
+                               class="iconbox bg-white ti-zoom-in text-primary"></a>
+                        </div>
+                    </div>
+                    <div class="hover:parent">
+                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/4.jpg" alt="">
+                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                            <a href="assets/img/school/4.jpg" data-fancybox="gallery1"
+                               class="iconbox bg-white ti-zoom-in text-primary"></a>
+                        </div>
+                    </div>
+                    <div class="hover:parent">
+                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/2.jpg" alt="">
+                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                            <a href="assets/img/school/2.jpg" data-fancybox="gallery1"
+                               class="iconbox bg-white ti-zoom-in text-primary"></a>
+                        </div>
+                    </div>
+                    <div class="hover:parent">
+                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/3.jpg" alt="">
+                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                            <a href="assets/img/school/3.jpg" data-fancybox="gallery1"
+                               class="iconbox bg-white ti-zoom-in text-primary"></a>
+                        </div>
+                    </div>
+                    <div class="hover:parent">
+                        <img class="w-100 transition-0_3 hover:zoomin" src="assets/img/school/4.jpg" alt="">
+                        <div class="card-img-overlay  transition-0_3 flex-center bg-black-0_7 hover:show">
+                            <a href="assets/img/school/4.jpg" data-fancybox="gallery1"
+                               class="iconbox bg-white ti-zoom-in text-primary"></a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- END row-->
+
         </div> <!-- END container-->
     </section>
 @endsection

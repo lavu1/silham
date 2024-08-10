@@ -27,4 +27,16 @@ Route::get('/faqs', function () {
 Route::get('/services', function () {
     return view('pages.home');
 })->name('services');
+Route::get('/Outsourced-Data-Protection-Officer', function () {
+    return view('pages.services_dpo');
+})->name('services.dpo');
+Route::get('/Data-Protection-Training', function () {
+    return view('pages.services_dpt');
+})->name('services.dpt');
+Route::get('/Data-Protection-Consultancy', function () {
+    return view('pages.services_dpc');
+})->name('services.dpc');
+Route::get('/Data-Protection-Auditor-Services', function () {
+    return view('pages.services_dpas');
+})->name('services.dpas');
 
