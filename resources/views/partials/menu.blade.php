@@ -13,19 +13,19 @@
         </div>
       </span>
             <div class="collapse navbar-collapse when-collapsed" id="ec-nav__collapsible">
-                <ul class="nav navbar-nav ec-nav__navbar ml-auto font-weight-bold font-size-18">
-                    <li class="nav-item nav-item__has-dropdown active">
-                        <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#"> Services </a>
+                <ul class="nav navbar-nav ec-nav__navbar ml-auto font-weight-bold font-size-24">
+                    <li class="nav-item nav-item__has-dropdown {{ in_array(Route::currentRouteName(), ['services.dpo','services.dpt','services.dpc','services.dpas']) ? 'active bg-primary text-white' : '' }}">
+                        <a class="nav-link dropdown-toggle  {{ in_array(Route::currentRouteName(), ['services.dpo','services.dpt','services.dpc','services.dpas']) ? 'text-white' : '' }}" data-toggle="dropdown" href="#"> Services </a>
                         <div class="dropdown-menu">
                             <ul class="list-unstyled">
-                                <li><a class="nav-link__list {{ Route::is('services.dpo') ? 'active' : '' }}" href="{{ route('services.dpo') }}"> Outsourced Data Protection Officer (DPO)</a></li>
-                                <li><a class="nav-link__list {{ Route::is('services.dpt') ? 'active' : '' }}" href="{{ route('services.dpt') }}"> Data Protection Training </a></li>
-                                <li><a class="nav-link__list {{ Route::is('services.dpc') ? 'active' : '' }}" href="{{ route('services.dpc') }}"> Data Protection Consultancy </a></li>
-                                <li><a class="nav-link__list {{ Route::is('services.dpas') ? 'active' : '' }}" href="{{ route('services.dpas') }}"> Data Protection Auditor Services </a></li>
+                                <li><a class="nav-link__list {{ Route::is('services.dpo') ? 'active bg-primary text-white' : '' }}" href="{{ route('services.dpo') }}"> Outsourced Data Protection Officer (DPO)</a></li>
+                                <li><a class="nav-link__list {{ Route::is('services.dpt') ? 'active bg-primary text-white' : '' }}" href="{{ route('services.dpt') }}"> Data Protection Training </a></li>
+                                <li><a class="nav-link__list {{ Route::is('services.dpc') ? 'active bg-primary text-white' : '' }}" href="{{ route('services.dpc') }}"> Data Protection Consultancy </a></li>
+                                <li><a class="nav-link__list {{ Route::is('services.dpas') ? 'active bg-primary text-white' : '' }}" href="{{ route('services.dpas') }}"> Data Protection Auditor Services </a></li>
                             </ul>
                         </div>
                     </li>
-                    <li class="nav-item nav-item__has-dropdown active">
+                    <li class="nav-item nav-item__has-dropdown hover:bg-primary">
                         <a class="nav-link dropdown-toggle active mb-0" data-toggle="dropdown" href="#">Sector</a>
                         <div class="dropdown-menu">
                             <ul class="list-unstyled">
@@ -37,21 +37,21 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="nav-item navi list-unstyled mt-4">
-                        <a class="nav-link__list px-0 {{ Route::is('about') ? 'active' : '' }}" href="{{ route('about') }}"> About Us </a>
+                    <li class="nav-item nav-item__has-dropdown hover:bg-primary">
+                        <a class="nav-link mb-0 {{ Route::is('about') ? 'active bg-primary text-white' : '' }}" href="{{ route('about') }}"> About Us </a>
                     </li>
-                    <li class="nav-item list-unstyled mt-4">
-                        <a class="nav-link__list px-0 {{ Route::is('events') ? 'active' : '' }}" href="{{ route('events') }}" > Events & News </a>
+                    <li class="nav-item nav-item__has-dropdown hover:bg-primary">
+                        <a class="nav-link mb-0 hover:text-white {{ Route::is('events') ? 'active bg-primary text-white' : '' }}" href="{{ route('events') }}" > Events & News </a>
                     </li>
-                    <li class="nav-item list-unstyled mt-4">
-                        <a class="nav-link__list px-0 {{ Route::is('blog') ? 'active' : '' }}" href="{{ route('blog') }}"> Blog </a>
+                    <li class="nav-item nav-item__has-dropdown hover:bg-primary">
+                        <a class="nav-link mb-0 hover:text-white {{ Route::is('blog') ? 'active bg-primary text-white' : '' }}" href="{{ route('blog') }}"> Blog </a>
                     </li>
-                    <li class="nav-item list-unstyled mt-4">
-                        <a class="nav-link__list px-0 {{ Route::is('contact') ? 'active' : '' }}" href="{{ route('contact') }}"> Contact Us</a>
+                    <li class="nav-item nav-item__has-dropdown hover:bg-primary">
+                        <a class="nav-link mb-0 hover:text-white {{ Route::is('contact') ? 'active bg-primary text-white' : '' }}" href="{{ route('contact') }}"> Contact Us</a>
                     </li>
 
-                    <li class="nav-item list-unstyled nav-item__has-dropdown mt-4">
-                        <a class="nav-link__list px-0 {{ Route::is('faqs') ? 'active' : '' }}" href="{{ route('faqs') }}"> FAQ's </a>
+                    <li class="nav-item nav-item__has-dropdown hover:bg-primary">
+                        <a class="nav-link mb-0 hover:text-white {{ Route::is('faqs') ? 'active bg-primary text-white' : '' }}" href="{{ route('faqs') }}"> FAQ's </a>
                     </li>
 
                 </ul>

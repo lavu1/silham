@@ -21,14 +21,14 @@
                             <h2 class="display-lg-4 font-weight-bold text-white animated slideInUp mb-0">
                                 Raising Awareness through Data Protection Awareness Workshops
                             </h2>
-                            <p class="font-size-md-18 animated slideInUp">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
+{{--                            <p class="font-size-md-18 animated slideInUp">--}}
+{{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
+{{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
+{{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
+{{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
+{{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
+{{--                                mollit anim id est laborum.--}}
+{{--                            </p>--}}
                             <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read more</a>
                             {{--                                                        <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
@@ -46,14 +46,14 @@
                                 Building Capacity for Compliance Readiness through Advanced Data
                                 Protection Training
                             </h2>
-                            <p class="font-size-md-18 animated slideInUp">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
+{{--                            <p class="font-size-md-18 animated slideInUp">--}}
+{{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
+{{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
+{{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
+{{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
+{{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
+{{--                                mollit anim id est laborum.--}}
+{{--                            </p>--}}
                             <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
@@ -71,14 +71,14 @@
                             <h4 class="display-lg-4 font-weight-bold text-white animated slideInUp">
                                 Achieving Compliance through Outsourced Data Protection Services
                             </h4>
-                            <p class="font-size-md-18 animated slideInUp">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
+{{--                            <p class="font-size-md-18 animated slideInUp">--}}
+{{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
+{{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
+{{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
+{{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
+{{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
+{{--                                mollit anim id est laborum.--}}
+{{--                            </p>--}}
                             <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
@@ -97,14 +97,14 @@
                             {{--                            <h2 class="display-lg-3 font-weight-bold text-primary animated slideInUp">--}}
                             {{--                                college / university--}}
                             {{--                            </h2>--}}
-                            <p class="font-size-md-18 animated slideInUp">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
+{{--                            <p class="font-size-md-18 animated slideInUp">--}}
+{{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
+{{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
+{{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
+{{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
+{{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
+{{--                                mollit anim id est laborum.--}}
+{{--                            </p>--}}
                             <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read more</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
@@ -123,14 +123,14 @@
                             {{--                            <h2 class="display-lg-3 font-weight-bold text-primary animated slideInUp">--}}
                             {{--                                college / university--}}
                             {{--                            </h2>--}}
-                            <p class="font-size-md-18 animated slideInUp">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                                mollit anim id est laborum.
-                            </p>
+{{--                            <p class="font-size-md-18 animated slideInUp">--}}
+{{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
+{{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
+{{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
+{{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
+{{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
+{{--                                mollit anim id est laborum.--}}
+{{--                            </p>--}}
                             <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>

@@ -12,7 +12,7 @@
 
                 <div class="col-lg-6">
                     <h2>
-                        <span class="text-primary">Who</span> We Are
+                        <span class="text-primary">Who</span> Are we?
                     </h2>
                     <div class="width-4rem height-4 bg-primary rounded mt-4 marginBottom-40"></div>
                     <p class="mb-5">
@@ -56,7 +56,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h2>
-                        What We offer
+                        What do we do?
                     </h2>
                     <div class="width-4rem height-4 bg-primary rounded mt-4 marginBottom-40"></div>
                     <p class="mb-5">

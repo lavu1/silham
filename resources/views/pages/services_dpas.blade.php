@@ -54,7 +54,7 @@
                             </ul>
                             <div class="row">
                                 <h4 class="my-3 col-12">
-                                    Topics Covered
+                                    Related Topics
                                 </h4>
                                 <div class="col-md-6 mb-4">
                                     <ul class="list-unstyled list-style-icon list-icon-bullet">
@@ -77,7 +77,7 @@
                     <div class="card shadow-v1">
                         <div class="card-body">
                             <h4 class="mb-2">
-                                Get in touch
+                                Find out more
                             </h4>
 
                             <div class="border-bottom py-3">
@@ -85,7 +85,7 @@
                                     <span class="iconbox iconbox-md bg-primary text-white"><i
                                             class="ti-email"></i></span>
                                     <div class="media-body ml-3">
-                                        <a href="mailto:support@echotheme.com" class="h5">support@silhma.com</a>
+                                        <a href="mailto:info@silhamconsulting.co.zm" class="h5">info@silhamconsulting.co.zm</a>
                                     </div>
                                 </div>
                             </div>
@@ -113,7 +113,7 @@
                                 <i class="ti-mobile text-primary mt-2"></i>
                                 <div class="media-body ml-3">
                                     <h6 class="my-0">Call for Help: </h6>
-                                    <a href="tel:+8801740411513">+8801740411513</a>
+                                    <a href="tel:+260750786820">+260750786820</a>
                                 </div>
                             </div>
                         </div>
