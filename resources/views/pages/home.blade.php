@@ -160,7 +160,7 @@
             <div class="row">
                 <div class="col-md-3 mt-4 text-center shadow-primary--onHover">
                     <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
-                        <i class="ti-bookmark-alt text-primary text-center"></i>
+                        <i class="ti-shield text-primary text-center"></i>
                     </div>
                     <h4 class="my-4">
                         Outsourced Data Protection Officers
@@ -174,7 +174,7 @@
                 </div>
                 <div class="col-md-3 mt-4 text-center shadow-primary--onHover">
                     <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
-                        <i class="ti-bookmark-alt text-primary text-center"></i>
+                        <i class="ti-book text-primary text-center"></i>
                     </div>
                     <h4 class="my-4">
                         Data Protection Training
@@ -188,7 +188,7 @@
                 </div>
                 <div class="col-md-3 mt-4 text-center shadow-primary--onHover">
                     <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
-                        <i class="ti-bookmark-alt text-primary text-center"></i>
+                        <i class="ti-light-bulb text-primary text-center"></i>
                     </div>
                     <h4 class="my-4">
                         Data Protection Consultancy
@@ -202,7 +202,7 @@
                 </div>
                 <div class="col-md-3 mt-4 text-center shadow-primary--onHover">
                     <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 mt-5">
-                        <i class="ti-bookmark-alt text-primary text-center"></i>
+                        <i class="ti-clipboard text-primary text-center"></i>
                     </div>
                     <h4 class="my-4">
                         Data Audit
