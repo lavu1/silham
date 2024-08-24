@@ -127,10 +127,10 @@
                 {{--                    </div>--}}
                 {{--                </div>--}}
                 <div class="col-md-6 mt-4 text-center">
-                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
-                        <i class="ti-bookmark-alt text-primary"></i>
+                    <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2 text">
+                        <i class="ti-rocket text-primary"></i>
                     </div>
-                    <div class="media-body ml-4">
+                    <div class="media-body">
                         <h4 class="mt-0 mb-3">
                             Mission
                         </h4>
@@ -143,9 +143,9 @@
                 </div>
                 <div class="col-md-6 mt-4 text-center">
                     <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
-                        <i class="ti-bookmark-alt text-primary"></i>
+                        <i class="ti-heart text-primary"></i>
                     </div>
-                    <div class="media-body ml-4">
+                    <div class="media-body">
                         <h4 class="mt-0 mb-3">
                             Vision
                         </h4>
@@ -180,9 +180,9 @@
                 {{--                </div>--}}
                 <div class="col-md-3 mt-4 text-center">
                     <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
-                        <i class="ti-bookmark-alt text-primary"></i>
+                        <i class="ti-briefcase text-primary"></i>
                     </div>
-                    <div class="media-body ml-4">
+                    <div class="media-body">
                         <h4 class="mt-0 mb-3">
                             Professionalism
                         </h4>
@@ -194,9 +194,9 @@
                 </div>
                 <div class="col-md-3 mt-4 text-center">
                     <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
-                        <i class="ti-bookmark-alt text-primary"></i>
+                        <i class="ti-book text-primary"></i>
                     </div>
-                    <div class="media-body ml-4">
+                    <div class="media-body">
                         <h4 class="mt-0 mb-3">
                             MicroMasters Programs
                         </h4>
@@ -209,9 +209,9 @@
 
                 <div class="col-md-3 mt-4 text-center">
                     <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
-                        <i class="ti-bookmark-alt text-primary"></i>
+                        <i class="ti-pie-chart text-primary"></i>
                     </div>
-                    <div class="media-body ml-4">
+                    <div class="media-body">
                         <h4 class="mt-0 mb-3">
                             XSeries Programs
                         </h4>
@@ -224,9 +224,9 @@
 
                 <div class="col-md-3 mt-4 text-center">
                     <div class="iconbox iconbox-xxl font-size-26 bg-primary-0_2">
-                        <i class="ti-bookmark-alt text-primary"></i>
+                        <i class="ti-map text-primary"></i>
                     </div>
-                    <div class="media-body ml-4">
+                    <div class="media-body">
                         <h4 class="mt-0 mb-3">
                             Take The Tour
                         </h4>
