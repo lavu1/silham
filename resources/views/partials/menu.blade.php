@@ -25,15 +25,16 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="nav-item nav-item__has-dropdown hover:bg-primary">
-                        <a class="nav-link dropdown-toggle active mb-0" data-toggle="dropdown" href="#">Sector</a>
+                    <li class="nav-item nav-item__has-dropdown {{ in_array(Route::currentRouteName(), ['sectors.one','sectors.two','sectors.three','sectors.four','sectors.five','sectors.six']) ? 'active bg-primary text-white' : '' }}">
+                        <a class="nav-link dropdown-toggle {{ in_array(Route::currentRouteName(), ['sectors.one','sectors.two','sectors.three','sectors.four','sectors.five','sectors.six']) ? 'active bg-primary text-white' : '' }}" data-toggle="dropdown" href="#">Sector</a>
                         <div class="dropdown-menu">
                             <ul class="list-unstyled">
-                                <li><a class="nav-link__list" href="#">Pensions &amp; Insurance</a></li>
-                                <li><a class="nav-link__list" href="#">Medical &amp; Healthcare</a></li>
-                                <li><a class="nav-link__list" href="#">Software &amp; Technology</a></li>
-                                <li><a class="nav-link__list" href="#">Education</a></li>
-                                <li><a class="nav-link__list" href="#">NGO’s</a></li>
+                                <li><a class="nav-link__list  {{ Route::is('sectors.one') ? 'active bg-primary text-white' : '' }}" href="{{ route('sectors.one') }}">Banking & Finance</a></li>
+                                <li><a class="nav-link__list  {{ Route::is('sectors.two') ? 'active bg-primary text-white' : '' }}" href="{{ route('sectors.two') }}">Pensions & Insurance</a></li>
+                                <li><a class="nav-link__list  {{ Route::is('sectors.three') ? 'active bg-primary text-white' : '' }}" href="{{ route('sectors.three') }}">Medical & Healthcare</a></li>
+                                <li><a class="nav-link__list  {{ Route::is('sectors.four') ? 'active bg-primary text-white' : '' }}" href="{{ route('sectors.four') }}">Technology</a></li>
+                                <li><a class="nav-link__list  {{ Route::is('sectors.five') ? 'active bg-primary text-white' : '' }}" href="{{ route('sectors.five') }}">Education</a></li>
+                                <li><a class="nav-link__list  {{ Route::is('sectors.six') ? 'active bg-primary text-white' : '' }}" href="{{ route('sectors.six') }}">Non-Governmental Organisations</a></li>
                             </ul>
                         </div>
                     </li>

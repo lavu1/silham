@@ -55,17 +55,26 @@
                     </ul>
                 </div>
                 <div class="col-lg-4 col-md-6 mt-5">
-                    <h4 class="h5 text-white">Hot Topics</h4>
+                    <h4 class="h5 text-white">You may like</h4>
                     <div class="width-3rem bg-primary height-3 mt-3"></div>
                     <ul class="list-unstyled marginTop-40">
-                        <li class="mb-2"><a href="#">About Us</a></li>
-                        <li class="mb-2"><a href="#">Contact Us</a></li>
-                        <li class="mb-2"><a href="#">FQs</a></li>
-                        <li class="mb-2"><a href="#">Services</a></li>
-                        <li class="mb-2"><a href=#">Blogs</a></li>
-                        <li class="mb-2"><a href="#">Latest News</a></li>
+                        <li><a href="#" class="link" >Outsourced Data Protection Officer (DPO)</a> </li>
+                        <li><a href="#" class="link" >Data Protection Training</a> </li>
+                        <li><a href="#" class="link" >Data Protection Consultancy</a> </li>
+                        <li><a href="#" class="link" >Data Protection Auditor Services</a></li>
                     </ul>
                 </div>
+{{--                <div class="col-lg-4 col-md-6 mt-5">--}}
+{{--                    <h4 class="h5 text-white">Topics</h4>--}}
+{{--                    <div class="width-3rem bg-primary height-3 mt-3"></div>--}}
+{{--                    <ul class="list-unstyled marginTop-40">--}}
+{{--                        <li><a class="link" href="#">Banking and Finance</a> </li>--}}
+{{--                        <li><a class="link" href="#">Pensions & Insurance</a> </li>--}}
+{{--                        <li><a class="link" href="#">Medical & Healthcare</a> </li>--}}
+{{--                        <li><a class="link" href="#">Technology</a> </li>--}}
+{{--                        <li><a class="link" href="#">Education</a> </li>--}}
+{{--                    </ul>--}}
+{{--                </div>--}}
 
                 {{--                <div class="col-lg-4 col-md-6 mt-5">--}}
                 {{--                    <h4 class="h5 text-white">Newslatter</h4>--}}

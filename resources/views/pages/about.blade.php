@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('page_title', 'Home')
+@section('page_title', 'About us')
 @section('content')
 
     <section class="padding-y-100 border-bottom">

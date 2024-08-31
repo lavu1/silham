@@ -39,4 +39,38 @@ Route::get('/Data-Protection-Consultancy', function () {
 Route::get('/Data-Protection-Auditor-Services', function () {
     return view('pages.services_dpas');
 })->name('services.dpas');
-
+//carousel
+Route::get('/Raising-Awareness-through-Data-Protection-Awareness-Workshops', function () {
+    return view('pages.carasel.pageone');
+})->name('carasel.one');
+Route::get('/Building-Capacity-for-Compliance-Readiness-through-Advanced-Data-Protection-Training', function () {
+    return view('pages.carasel.pagetwo');
+})->name('carasel.two');
+Route::get('/Achieving-Compliance-through-Outsourced-Data-Protection-Services', function () {
+    return view('pages.carasel.pagethree');
+})->name('carasel.three');
+Route::get('/Demonstrating-Compliance-through-Data-Audits', function () {
+    return view('pages.carasel.pagefour');
+})->name('carasel.four');
+Route::get('/Managing-Risk-through-Data-Protection-Impact-Assessments', function () {
+    return view('pages.carasel.pagefive');
+})->name('carasel.five');
+//sectors
+Route::get('/Banking-and-Finance', function () {
+    return view('pages.sectors.pageone');
+})->name('sectors.one');
+Route::get('/Pensions-and-Insurance', function () {
+    return view('pages.sectors.pagetwo');
+})->name('sectors.two');
+Route::get('/Medical-and-Healthcare', function () {
+    return view('pages.sectors.pagethree');
+})->name('sectors.three');
+Route::get('/Technology', function () {
+    return view('pages.sectors.pagefour');
+})->name('sectors.four');
+Route::get('/Education', function () {
+    return view('pages.sectors.pagefive');
+})->name('sectors.five');
+Route::get('/Non-Governmental-Organisations', function () {
+    return view('pages.sectors.pagesix');
+})->name('sectors.six');

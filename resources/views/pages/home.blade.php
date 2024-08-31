@@ -5,31 +5,32 @@
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
         </ol>
 
         <div class="carousel-inner">
 
             <div class="carousel-item height-90vh padding-y-80 active">
                 <div class="bg-absolute" data-dark-overlay="5"
-                     style="background:url(assets/img/1920x800/2.jpg) no-repeat"></div>
+                     style="background:url(assets/img/carousel/one.jpg) no-repeat"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 mx-auto text-center text-white">
                             <h2 class="display-lg-4 font-weight-bold text-white animated slideInUp mb-0">
                                 Raising Awareness through Data Protection Awareness Workshops
                             </h2>
-{{--                            <p class="font-size-md-18 animated slideInUp">--}}
-{{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
-{{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
-{{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
-{{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
-{{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
-{{--                                mollit anim id est laborum.--}}
-{{--                            </p>--}}
-                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read more</a>
+                            {{--                            <p class="font-size-md-18 animated slideInUp">--}}
+                            {{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
+                            {{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
+                            {{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
+                            {{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
+                            {{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
+                            {{--                                mollit anim id est laborum.--}}
+                            {{--                            </p>--}}
+                            <a href="{{ route('carasel.one') }}" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read
+                                more</a>
                             {{--                                                        <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
                     </div>
@@ -38,7 +39,7 @@
 
             <div class="carousel-item height-90vh padding-y-80">
                 <div class="bg-absolute" data-dark-overlay="5"
-                     style="background:url(assets/img/1920x800/2.jpg) no-repeat"></div>
+                     style="background:url(assets/img/carousel/two.jpg) no-repeat"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 mx-auto text-center text-white">
@@ -46,15 +47,15 @@
                                 Building Capacity for Compliance Readiness through Advanced Data
                                 Protection Training
                             </h2>
-{{--                            <p class="font-size-md-18 animated slideInUp">--}}
-{{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
-{{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
-{{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
-{{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
-{{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
-{{--                                mollit anim id est laborum.--}}
-{{--                            </p>--}}
-                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
+                            {{--                            <p class="font-size-md-18 animated slideInUp">--}}
+                            {{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
+                            {{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
+                            {{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
+                            {{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
+                            {{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
+                            {{--                                mollit anim id est laborum.--}}
+                            {{--                            </p>--}}
+                            <a href="{{ route('carasel.two') }}" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
                     </div>
@@ -64,22 +65,22 @@
 
             <div class="carousel-item height-90vh padding-y-80">
                 <div class="bg-absolute" data-dark-overlay="5"
-                     style="background:url(assets/img/1920x800/1.jpg) no-repeat"></div>
+                     style="background:url(assets/img/carousel/three.jpg) no-repeat"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 mx-auto text-center text-white">
                             <h4 class="display-lg-4 font-weight-bold text-white animated slideInUp">
                                 Achieving Compliance through Outsourced Data Protection Services
                             </h4>
-{{--                            <p class="font-size-md-18 animated slideInUp">--}}
-{{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
-{{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
-{{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
-{{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
-{{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
-{{--                                mollit anim id est laborum.--}}
-{{--                            </p>--}}
-                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
+                            {{--                            <p class="font-size-md-18 animated slideInUp">--}}
+                            {{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
+                            {{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
+                            {{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
+                            {{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
+                            {{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
+                            {{--                                mollit anim id est laborum.--}}
+                            {{--                            </p>--}}
+                            <a href="{{ route('carasel.three') }}" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
                     </div>
@@ -97,15 +98,15 @@
                             {{--                            <h2 class="display-lg-3 font-weight-bold text-primary animated slideInUp">--}}
                             {{--                                college / university--}}
                             {{--                            </h2>--}}
-{{--                            <p class="font-size-md-18 animated slideInUp">--}}
-{{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
-{{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
-{{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
-{{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
-{{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
-{{--                                mollit anim id est laborum.--}}
-{{--                            </p>--}}
-                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read more</a>
+                            {{--                            <p class="font-size-md-18 animated slideInUp">--}}
+                            {{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
+                            {{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
+                            {{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
+                            {{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
+                            {{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
+                            {{--                                mollit anim id est laborum.--}}
+                            {{--                            </p>--}}
+                            <a href="{{ route('carasel.four') }}" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read more</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
                     </div>
@@ -123,15 +124,15 @@
                             {{--                            <h2 class="display-lg-3 font-weight-bold text-primary animated slideInUp">--}}
                             {{--                                college / university--}}
                             {{--                            </h2>--}}
-{{--                            <p class="font-size-md-18 animated slideInUp">--}}
-{{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
-{{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
-{{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
-{{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
-{{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
-{{--                                mollit anim id est laborum.--}}
-{{--                            </p>--}}
-                            <a href="#" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
+                            {{--                            <p class="font-size-md-18 animated slideInUp">--}}
+                            {{--                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor--}}
+                            {{--                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud--}}
+                            {{--                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure--}}
+                            {{--                                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.--}}
+                            {{--                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt--}}
+                            {{--                                mollit anim id est laborum.--}}
+                            {{--                            </p>--}}
+                            <a href="{{ route('carasel.five') }}" class="btn btn-primary mt-3 mx-2 animated slideInUp">Read More</a>
                             {{--                            <a href="#" class="btn btn-outline-white mt-3 mx-2 animated slideInUp">Registration</a>--}}
                         </div>
                     </div>
@@ -223,7 +224,7 @@
             <div class="row">
 
                 <div class="col-md-6 bg-cover bg-center text-white padding-y-80"
-                     style="background:url(assets/img/960x560/1.jpg) no-repeat">
+                     style="background:url(assets/img/carousel/home.jpg) no-repeat">
                     <div class="padding-x-lg-100 wow pulse" style="visibility: visible; animation-name: pulse;">
                         <h2 class="text-white mb-4">
                             Mission

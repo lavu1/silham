@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('page_title', 'Home')
+@section('page_title', 'Blogs')
 @section('content')
 
     <div class="py-5 bg-cover text-white" data-dark-overlay="5" style="background:url(assets/img/1920/658_2.jpg) no-repeat">

@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('page_title', 'Home')
+@section('page_title', 'Events and News')
 @section('content')
 
 <div class="padding-y-60 bg-cover" data-dark-overlay="6" style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat">
