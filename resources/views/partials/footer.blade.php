@@ -48,7 +48,7 @@
                     <ul class="list-unstyled marginTop-40">
                         <li class="mb-2"><a href="#">About Us</a></li>
                         <li class="mb-2"><a href="#">Contact Us</a></li>
-                        <li class="mb-2"><a href="#">FQs</a></li>
+                        <li class="mb-2"><a href="#">FAQs</a></li>
                         <li class="mb-2"><a href="#">Services</a></li>
                         <li class="mb-2"><a href=#">Blogs</a></li>
                         <li class="mb-2"><a href="#">Latest News</a></li>

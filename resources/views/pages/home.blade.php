@@ -14,7 +14,7 @@
 
             <div class="carousel-item height-90vh padding-y-80 active">
                 <div class="bg-absolute" data-dark-overlay="5"
-                     style="background:url(assets/img/carousel/one.jpg) no-repeat"></div>
+                     style="background:url(assets/img/home/carousel/IMAGE07_12.jpg) no-repeat"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 mx-auto text-center text-white">
@@ -39,7 +39,7 @@
 
             <div class="carousel-item height-90vh padding-y-80">
                 <div class="bg-absolute" data-dark-overlay="5"
-                     style="background:url(assets/img/carousel/two.jpg) no-repeat"></div>
+                     style="background:url(assets/img/home/carousel/two.jpg) no-repeat"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 mx-auto text-center text-white">
@@ -65,7 +65,7 @@
 
             <div class="carousel-item height-90vh padding-y-80">
                 <div class="bg-absolute" data-dark-overlay="5"
-                     style="background:url(assets/img/carousel/three.jpg) no-repeat"></div>
+                     style="background:url(assets/img/home/carousel/three.jpg) no-repeat"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 mx-auto text-center text-white">
@@ -88,7 +88,7 @@
             </div>
             <div class="carousel-item height-90vh padding-y-80">
                 <div class="bg-absolute" data-dark-overlay="5"
-                     style="background:url(assets/img/1920x800/1.jpg) no-repeat"></div>
+                     style="background:url(assets/img/home/carousel/IMAGE07_6.jpg) no-repeat"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 mx-auto text-center text-white">
@@ -114,7 +114,7 @@
             </div>
             <div class="carousel-item height-90vh padding-y-80">
                 <div class="bg-absolute" data-dark-overlay="5"
-                     style="background:url(assets/img/1920x800/1.jpg) no-repeat"></div>
+                     style="background:url(assets/img/home/carousel/IMAGE07_3.jpg) no-repeat"></div>
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-10 mx-auto text-center text-white">
@@ -224,12 +224,12 @@
             <div class="row">
 
                 <div class="col-md-6 bg-cover bg-center text-white padding-y-80"
-                     style="background:url(assets/img/carousel/home.jpg) no-repeat">
+                     style="background:url(assets/img/home/IMAGE07_28.jpg) no-repeat">
                     <div class="padding-x-lg-100 wow pulse" style="visibility: visible; animation-name: pulse;">
                         <h2 class="text-white mb-4">
                             Mission
                         </h2>
-                        <p>
+                        <p class="font-weight-bold">
                             We will delight our customers with exceptional quality consultancy and
                             training services in the areas of our service delivery, while helping them meet
                             their business objectives.
@@ -237,12 +237,12 @@
                     </div>
                 </div>
                 <div class="col-md-6 bg-cover bg-center text-white padding-y-80"
-                     style="background:url(assets/img/960x560/2.jpg) no-repeat">
+                     style="background:url(assets/img/home/carousel/IMAGE07_28.jpg) no-repeat">
                     <div class="padding-x-lg-100 wow pulse" style="visibility: visible; animation-name: pulse;">
                         <h2 class="text-white mb-4">
                             Vision
                         </h2>
-                        <p>
+                        <p class="font-weight-bold">
                             To be the brand of choice in our chosen service markets in Zambia and
                             in the region
                         </p>

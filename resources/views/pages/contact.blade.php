@@ -69,7 +69,10 @@
                     </p>
                     <div class="row mt-5 mx-0">
                         <div class="col-md-4 mb-4">
-                            <input type="text" class="form-control" placeholder="Name" required>
+                            <input type="text" class="form-control" placeholder="First Name" required>
+                        </div>
+                        <div class="col-md-4 mb-4">
+                            <input type="text" class="form-control" placeholder="Last Name" required>
                         </div>
                         <div class="col-md-4 mb-4">
                             <input type="email" class="form-control" placeholder="Email" required>
@@ -77,10 +80,14 @@
                         <div class="col-md-4 mb-4">
                             <input type="email" class="form-control" placeholder="Phone number">
                         </div>
+                        <div class="col-md-4 mb-4">
+                            <input type="email" class="form-control" placeholder="Company">
+                        </div>
                         <div class="col-12">
                             <textarea type="email" class="form-control" placeholder="Message" rows="7"></textarea>
                             <button type="submit" class="btn btn-primary mt-4">Send Message</button>
                         </div>
+                        <a href="#" class="link link-body-emphasis mt-4">Read our privacy policy</a>
                     </div>
                 </form>
             </div>

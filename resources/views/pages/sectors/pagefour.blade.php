@@ -38,7 +38,7 @@
                         <div class="wrapper mb-1 mt-2">
                             <p style="text-align: center;">
                                 <a class="customBtn" style="float: none;color: #000; font-weight: bold;"
-                                   href="mailto:hello@dpocentre.com"><i class="fas fa-envelope"></i> Email</a>
+                                   href="mailto:info@silhamconsulting.co.zm"><i class="fas fa-envelope"></i> Email</a>
                                 <a class="customBtn" style="float: none; color: #000; font-weight: bold;"
                                    href="Tel: +260750786820"><i class="fa fa-phone fa-fw fa-lg"></i>Call</a>
                             </p>
