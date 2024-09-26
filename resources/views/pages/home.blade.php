@@ -237,7 +237,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 bg-cover bg-center text-white padding-y-80"
-                     style="background:url(assets/img/home/carousel/IMAGE07_28.jpg) no-repeat">
+                     style="background:url(assets/img/home/IMAGE07_28.jpg) no-repeat">
                     <div class="padding-x-lg-100 wow pulse" style="visibility: visible; animation-name: pulse;">
                         <h2 class="text-white mb-4">
                             Vision
