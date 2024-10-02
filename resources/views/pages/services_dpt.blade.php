@@ -57,6 +57,8 @@
                                 </li>
                                 <li>Data Protection Training for Data Protection Auditors
                                 </li>
+                                <li class="font-weight-bold font-size-lg-18">PECB GDPR Certified Data Protection Officer (CDPO)
+                                </li>
 
                             </ul>
                             <div class="row">
@@ -101,7 +103,7 @@
 
                     <div class="card shadow-v1 mt-4">
                         <div class="card border border-light marginTop-30 shadow-v1">
-                            <h4 class="card-header border-bottom mb-0 h6">New & Events</h4>
+                            <h4 class="card-header border-bottom mb-0 h6">News & Events</h4>
                             <ul class="card-body list-unstyled mb-0">
                                 <li class="mb-2"><a href="">All Events</a></li>
                                 <li class="mb-2"><a href="">DPO session</a></li>
@@ -112,12 +114,12 @@
                             <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
                             <div class="card-img-overlay text-white bg-black-0_6">
                                 <h4 class="card-title">
-                                    Enriched Data Experiences
+                                    Get the globally recognized,
                                 </h4>
-                                <p class="my-3">
-                                    Get your data protection certificate now.
-                                </p>
-                                <a href="#" class="btn btn-white">Join Now</a>
+                                <h3 class="my-3">
+                                    PECB GDPR CDPO Certification
+                                </h3>
+                                <a href="#" class="btn btn-white">Find out more</a>
                             </div>
                         </div>
                         <div class="card border border-light marginTop-30 shadow-v1">

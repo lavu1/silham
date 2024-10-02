@@ -74,3 +74,38 @@ Route::get('/Education', function () {
 Route::get('/Non-Governmental-Organisations', function () {
     return view('pages.sectors.pagesix');
 })->name('sectors.six');
+//new and events
+//Route::get('/news-events', function () {
+//    return view('pages.eventsnews.pageone');
+//})->name('pageonenewsevents');
+//
+//Route::get('/news-events', function () {
+//    return view('pages.eventsnews.pageone');
+//})->name('pageonenewsevents');
+//
+//Route::get('/news-events', function () {
+//    return view('pages.eventsnews.pageone');
+//})->name('pageonenewsevents');
+//
+//Route::get('/news-events', function () {
+//    return view('pages.eventsnews.pageone');
+//})->name('pageonenewsevents');
+// Route for CEO Attends AUDA-NEPAD Data Governance Policy Stakeholder Engagement Workshop
+Route::get('/news-events/data-governance-workshop', function () {
+    return view('pages.eventsnews.pageone');
+})->name('dataGovernanceWorkshop');
+
+// Route for CEO Attends AUDA-NEPAD Training of Trainers Workshop
+Route::get('/news-events/trainers-workshop', function () {
+    return view('pages.eventsnews.pagetwo');
+})->name('trainersWorkshop');
+
+// Route for Press Release
+Route::get('/news-events/press-release', function () {
+    return view('pages.eventsnews.pagethree');
+})->name('pressRelease');
+
+// Route for CEO & Principal Consultant Delivers Data Protection Awareness Training to the Health Sector
+Route::get('/news-events/data-protection-training-health-sector', function () {
+    return view('pages.eventsnews.pagefour');
+})->name('dataProtectionHealthSector');

@@ -35,7 +35,7 @@
                             <div class="media">
                                 <i class="ti-location-pin mt-2 mr-3"></i>
                                 <div class="media-body">
-                                    <span> plot 9698 Mitengo , Ndola Zambia</span>
+                                    <span> Plot 9698 Mitengo , Ndola Zambia</span>
                                 </div>
                             </div>
                         </li>

@@ -363,18 +363,19 @@
 
             <div class="row">
 
+
                 <div class="col-lg-4 col-md-6 marginTop-30">
                     <div class="card height-100p shadow-v1">
                         <img class="card-img-top" src="assets/img/384x320/5.jpg" alt="">
                         <div class="card-body">
-                            <a href="#" class="h4">
-                                Harvard Panel Examines Future of Cities
+                            <a href="{{ route('dataGovernanceWorkshop') }}" class="h4">
+                                CEO Attends AUDA-NEPAD Data Governance Policy Stakeholder Engagement Workshop
                             </a>
                             <ul class="list-unstyled line-height-lg mt-4">
-                                <li><i class="ti-time text-primary mr-2"></i>25-30 Dec, 2018</li>
-                                <li><i class="ti-location-pin text-primary mr-2"></i>Cambridge, USA</li>
+                                <li><i class="ti-time text-primary mr-2"></i>16-18 Sept, 2024</li>
+                                <li><i class="ti-location-pin text-primary mr-2"></i>Kabwe, Zambia</li>
                             </ul>
-                            <a href="page-event-details.html" class="btn btn-link pl-0">View Details</a>
+                            <a href="{{ route('dataGovernanceWorkshop') }}" class="btn btn-link pl-0">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -383,14 +384,14 @@
                     <div class="card height-100p shadow-v1">
                         <img class="card-img-top" src="assets/img/384x320/4.jpg" alt="">
                         <div class="card-body">
-                            <a href="#" class="h4">
-                                Farmer's Market at Harvard ceremony
+                            <a href="{{ route('trainersWorkshop') }}" class="h4">
+                                CEO Attends AUDA-NEPAD Training of Trainers Workshop
                             </a>
                             <ul class="list-unstyled line-height-lg mt-4">
-                                <li><i class="ti-time text-primary mr-2"></i>25-30 Dec, 2018</li>
-                                <li><i class="ti-location-pin text-primary mr-2"></i>Cambridge, USA</li>
+                                <li><i class="ti-time text-primary mr-2"></i>20-22 Aug, 2024</li>
+                                <li><i class="ti-location-pin text-primary mr-2"></i>Lusaka, Zambia</li>
                             </ul>
-                            <a href="page-event-details.html" class="btn btn-link pl-0">View Details</a>
+                            <a href="{{ route('trainersWorkshop') }}" class="btn btn-link pl-0">View Details</a>
                         </div>
                     </div>
                 </div>
@@ -399,17 +400,81 @@
                     <div class="card height-100p shadow-v1">
                         <img class="card-img-top" src="assets/img/384x320/3.jpg" alt="">
                         <div class="card-body">
-                            <a href="#" class="h4">
-                                A Conversation with Wynton Marsalis
+                            <a href="{{ route('pressRelease') }}" class="h4">
+                                Press Release
                             </a>
                             <ul class="list-unstyled line-height-lg mt-4">
-                                <li><i class="ti-time text-primary mr-2"></i>25-30 Dec, 2018</li>
-                                <li><i class="ti-location-pin text-primary mr-2"></i>Cambridge, USA</li>
+                                <li><i class="ti-time text-primary mr-2"></i>23 Sept, 2024</li>
+                                <li><i class="ti-location-pin text-primary mr-2"></i>Global</li>
                             </ul>
-                            <a href="page-event-details.html" class="btn btn-link pl-0">View Details</a>
+                            <a href="{{ route('pressRelease') }}" class="btn btn-link pl-0">View Details</a>
                         </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6 marginTop-30">
+                    <div class="card height-100p shadow-v1">
+                        <img class="card-img-top" src="assets/img/384x320/5.jpg" alt="">
+                        <div class="card-body">
+                            <a href="{{ route('dataProtectionHealthSector') }}" class="h4">
+                                CEO &amp; Principal Consultant Delivers Data Protection Awareness Training to the Health Sector
+                            </a>
+                            <ul class="list-unstyled line-height-lg mt-4">
+                                <li><i class="ti-time text-primary mr-2"></i>16-18 Sept, 2024</li>
+                                <li><i class="ti-location-pin text-primary mr-2"></i>Kabwe, Zambia</li>
+                            </ul>
+                            <a href="{{ route('dataProtectionHealthSector') }}" class="btn btn-link pl-0">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                {{--                <div class="col-lg-4 col-md-6 marginTop-30">--}}
+{{--                    <div class="card height-100p shadow-v1">--}}
+{{--                        <img class="card-img-top" src="assets/img/384x320/5.jpg" alt="">--}}
+{{--                        <div class="card-body">--}}
+{{--                            <a href="#" class="h4">--}}
+{{--                                Harvard Panel Examines Future of Cities--}}
+{{--                            </a>--}}
+{{--                            <ul class="list-unstyled line-height-lg mt-4">--}}
+{{--                                <li><i class="ti-time text-primary mr-2"></i>25-30 Dec, 2018</li>--}}
+{{--                                <li><i class="ti-location-pin text-primary mr-2"></i>Cambridge, USA</li>--}}
+{{--                            </ul>--}}
+{{--                            <a href="page-event-details.html" class="btn btn-link pl-0">View Details</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-lg-4 col-md-6 marginTop-30">--}}
+{{--                    <div class="card height-100p shadow-v1">--}}
+{{--                        <img class="card-img-top" src="assets/img/384x320/4.jpg" alt="">--}}
+{{--                        <div class="card-body">--}}
+{{--                            <a href="#" class="h4">--}}
+{{--                                Farmer's Market at Harvard ceremony--}}
+{{--                            </a>--}}
+{{--                            <ul class="list-unstyled line-height-lg mt-4">--}}
+{{--                                <li><i class="ti-time text-primary mr-2"></i>25-30 Dec, 2018</li>--}}
+{{--                                <li><i class="ti-location-pin text-primary mr-2"></i>Cambridge, USA</li>--}}
+{{--                            </ul>--}}
+{{--                            <a href="page-event-details.html" class="btn btn-link pl-0">View Details</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+{{--                <div class="col-lg-4 col-md-6 marginTop-30">--}}
+{{--                    <div class="card height-100p shadow-v1">--}}
+{{--                        <img class="card-img-top" src="assets/img/384x320/3.jpg" alt="">--}}
+{{--                        <div class="card-body">--}}
+{{--                            <a href="#" class="h4">--}}
+{{--                                A Conversation with Wynton Marsalis--}}
+{{--                            </a>--}}
+{{--                            <ul class="list-unstyled line-height-lg mt-4">--}}
+{{--                                <li><i class="ti-time text-primary mr-2"></i>25-30 Dec, 2018</li>--}}
+{{--                                <li><i class="ti-location-pin text-primary mr-2"></i>Cambridge, USA</li>--}}
+{{--                            </ul>--}}
+{{--                            <a href="page-event-details.html" class="btn btn-link pl-0">View Details</a>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+
             </div> <!-- END row-->
         </div> <!-- END container-->
     </section>
