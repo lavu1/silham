@@ -20,7 +20,7 @@
                             processed using such technological tools and subsequently wrongly characterized and/or
                             wrongly further processed.
                         </p>
-                        <img class="card-img-top w-100" src="assets/img/750/450.jpg" alt="">
+                        <img class="card-img-top w-100" src="assets/img/website/sectors/soft2.jpg" alt="Technology data protection">
                         <p>
                             The Zambian Data Protection Act, like any other data protection law out there, has imposed
                             strict legislation on how such technologies can be used to process personal data, without
@@ -131,7 +131,7 @@
 
                 <aside class="col-lg-3">
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/sectors/soft1.jpg" alt="Technology compliance">
                     </div>
                     <div class="card border border-light marginTop-30 shadow-v1 p-2">
                         <h4 class="text-center">
@@ -155,7 +155,7 @@
                         </ul>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/carousel_content/certificate.webp" alt="Data protection certificate">
                         <div class="card-img-overlay text-white bg-black-0_6">
                             <h4 class="card-title">
                                 Enriched Data Experiences

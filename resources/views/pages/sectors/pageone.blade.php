@@ -20,7 +20,7 @@
                             complimentary to the already existing legislation.
                         </p>
 
-                        <img class="card-img-top w-100" src="assets/img/750/450.jpg" alt="">
+                        <img class="card-img-top w-100" src="assets/img/website/sectors/banking1.jpg" alt="Banking and finance data protection">
 
                         <p>
                             Banking and other financial services providers process huge volume of personal data in their
@@ -121,7 +121,7 @@
 
                 <aside class="col-lg-3">
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/sectors/banking2.jpg" alt="Banking compliance">
                     </div>
                     <div class="card border border-light marginTop-30 shadow-v1 p-2">
                         <h4 class="text-center">
@@ -145,7 +145,7 @@
                         </ul>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/carousel_content/certificate.webp" alt="Data protection certificate">
                         <div class="card-img-overlay text-white bg-black-0_6">
                             <h4 class="card-title">
                                 Enriched Data Experiences

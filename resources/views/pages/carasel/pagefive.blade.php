@@ -2,7 +2,7 @@
 @section('page_title', 'Managing Risk through Data Protection Impact Assessments ')
 @section('content')
     <div class="padding-y-60 bg-cover" data-dark-overlay="6"
-         style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat">
+         style="background:url(assets/img/website/carousel_content/lastone.webp) no-repeat">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 my-2 text-white">
@@ -48,7 +48,7 @@
                             involve processing of personal data, is expected to undertake this assessment.
                         </p>
 
-                        <img class="card-img-top w-100" src="assets/img/750/450.jpg" alt="">
+                        <img class="card-img-top w-100" src="assets/img/website/carousel_content/lastone.webp" alt="Data protection impact assessment">
 
                         <p>
                             The primary result of this assessment is the Data Protection Impact Assessment (DPIA) Report. It looks at various
@@ -147,7 +147,7 @@
                         </p>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/carousel_content/datasudits.webp" alt="Data risk assessment">
                     </div>
                     <div class="card border border-light marginTop-30 shadow-v1">
                         <h4 class="card-header border-bottom mb-0 h6">New & Events</h4>
@@ -158,7 +158,7 @@
                         </ul>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/carousel_content/certificate.webp" alt="Data protection certificate">
                         <div class="card-img-overlay text-white bg-black-0_6">
                             <h4 class="card-title">
                                 Enriched Data Experiences

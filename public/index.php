@@ -4,6 +4,10 @@ use Illuminate\Http\Request;
 
 define('LARAVEL_START', microtime(true));
 
+// Machine-readable responses such as robots.txt and sitemap.xml must not be
+// prefixed by raw PHP notices when the server PHP version is newer than vendor code.
+ini_set('display_errors', '0');
+
 // Determine if the application is in maintenance mode...
 if (file_exists($maintenance = __DIR__.'/../storage/framework/maintenance.php')) {
     require $maintenance;

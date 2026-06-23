@@ -1,32 +1,39 @@
 @extends('layouts.master')
 @section('page_title', 'About us')
 @section('content')
+@php
+    $whoImage = cms_fragment('about', 'who_image', 'assets/img/home/carousel/IMAGE07_12.jpg');
+    $whoTitle = cms_fragment('about', 'who_title', 'Who Are we?');
+    $whoText = cms_fragment('about', 'who_text', 'Silham Consulting and Training Services is the No1 Privacy and Data Protection Services provider in Zambia.');
+    $servicesOverviewTitle = cms_fragment('about', 'services_overview_title', 'What do we do?');
+    $servicesOverviewIntro = cms_fragment('about', 'services_overview_intro', 'Silham Consulting and Training Services was established to help organisations comply with the Data Protection Act of 2021 and related laws on data protection.');
+    $servicesList = cms_fragment_json('about', 'services_list', []);
+    $missionVision = cms_fragment_json('about', 'mission_vision', []);
+    $missionBlock = $missionVision[0] ?? [
+        'title' => 'Mission',
+        'text' => 'We will delight our customers with exceptional quality consultancy and training services in the areas of our service delivery, while helping them meet their business objectives.',
+    ];
+    $visionBlock = $missionVision[1] ?? [
+        'title' => 'Vision',
+        'text' => 'To be the brand of choice in our chosen service markets in Zambia and in the region.',
+    ];
+@endphp
 
     <section class="padding-y-100 border-bottom">
         <div class="container">
             <div class="row align-items-center">
 
                 <div class="col-lg-5 mb-4 mr-auto text-center">
-                    <img class="wow fadeInLeft w-100 rounded" src="assets/img/384x320/3.jpg" alt="">
+                    <img class="wow fadeInLeft w-100 rounded" src="{{ cms_media_url($whoImage) }}" alt="{{ $whoTitle }}">
                 </div>
 
                 <div class="col-lg-6">
                     <h2>
-                        <span class="text-primary">Who</span> Are we?
+                        <span class="text-primary">{{ $whoTitle }}</span>
                     </h2>
                     <div class="width-4rem height-4 bg-primary rounded mt-4 marginBottom-40"></div>
                     <p class="mb-5">
-                        Silham Consulting and Training Services is the No1 Privacy and Data Protection Services
-                        provider in Zambia, established to deliver expert data protection and privacy advisory
-                        services in Zambia and beyond. We have gathered experts in the area of Data
-                        Protection and Privacy practice, ready to provide services whenever and wherever it is
-                        needed. Our consultancy team members have knowledge and deep understanding of
-                        the Zambian Data Protection Act of 2021, complemented by the expertise drawn from
-                        being certified as Data Protection Officers under the General Data Protection
-                        Regulations (GDPR), the European Legal Framework for Data Protection. This sets
-                        Silham apart from the rest in having both the global perspective and knowledge of data
-                        protection and privacy practice and the deep understanding of the local legal
-                        framework.
+                        {{ $whoText }}
                     </p>
                     {{--                    <ul class="list-unstyled list-style-icon list-icon-check-circle">--}}
                     {{--                        <li>--}}
@@ -56,40 +63,41 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <h2>
-                        What do we do?
+                        {{ $servicesOverviewTitle }}
                     </h2>
                     <div class="width-4rem height-4 bg-primary rounded mt-4 marginBottom-40"></div>
                     <p class="mb-5">
-                        Silham Consulting and Training Services was established to help organisations comply
-                        with the Data Protection Act of 2021 and related laws on data protection, and
-                        subsequently help them leverage compliance as a differentiator to enhance
-                        organisational value. We work with organisations to take them through the journey of
-                        compliance to the data protection laws, right from general awareness of the relevant
-                        laws, to actual implementation of robust privacy frameworks, including guaranteeing
-                        high levels of compliance based on our knowledge and expertise.
-                        Because we have a range of valuable services and flexible offerings, we allow our
-                        clients to choose a level of support that is right for them, whether it is a one-off training
-                        assignment, or ongoing long-term consultancy support.
+                        {{ $servicesOverviewIntro }}
 
                     </p>
                     <h4 class="h5">We provide the following:</h4>
                     <ul class="list-unstyled list-style-icon list-icon-check-circle">
-                        <li>
-                            <a class="link" href="#"> Outsourced Data Protection Officer (DPO) Services </a>
-                        </li>
-                        <li>
-                            <a class="link" href="#"> Data Protection and Privacy Consulting Services  </a>
-                        </li>
-                        <li>
-                            <a class="link" href="#"> Data Protection Awareness and Training Services  </a>
-                        </li>
-                        <li>
-                            <a class="link" href="#"> Data Protection Auditor Services  </a>
-                        </li>
+                        @forelse (($servicesList ?: []) as $service)
+                            @php
+                                $serviceTitle = $service['title'] ?? '';
+                                $serviceLink = $service['link'] ?? '#';
+                            @endphp
+                            <li>
+                                <a class="link" href="{{ Route::has($serviceLink) ? route($serviceLink) : $serviceLink }}"> {{ $serviceTitle }} </a>
+                            </li>
+                        @empty
+                            <li>
+                                <a class="link" href="#"> Outsourced Data Protection Officer (DPO) Services </a>
+                            </li>
+                            <li>
+                                <a class="link" href="#"> Data Protection and Privacy Consulting Services </a>
+                            </li>
+                            <li>
+                                <a class="link" href="#"> Data Protection Awareness and Training Services </a>
+                            </li>
+                            <li>
+                                <a class="link" href="#"> Data Protection Auditor Services </a>
+                            </li>
+                        @endforelse
                     </ul>
                 </div> <!-- END col-lg-6 ml-auto-->
                 <div class="col-lg-5 mb-4 mr-auto text-center">
-                    <img class="wow fadeInRight w-100 rounded" src="assets/img/360x300/4.jpg" alt="">
+                    <img class="wow fadeInRight w-100 rounded" src="{{ cms_media_url(cms_fragment('about', 'who_image', 'assets/img/home/IMAGE07_28.jpg')) }}" alt="{{ $whoTitle }}">
                 </div>
             </div> <!-- END row-->
         </div> <!-- END container-->
@@ -132,12 +140,10 @@
                     </div>
                     <div class="media-body">
                         <h4 class="mt-0 mb-3">
-                            Mission
+                            {{ $missionBlock['title'] ?? 'Mission' }}
                         </h4>
                         <p>
-                            We will delight our customers with exceptional quality consultancy and
-                            training services in the areas of our service delivery, while helping them meet
-                            their business objectives.
+                            {{ $missionBlock['text'] ?? '' }}
                         </p>
                     </div>
                 </div>
@@ -147,11 +153,10 @@
                     </div>
                     <div class="media-body">
                         <h4 class="mt-0 mb-3">
-                            Vision
+                            {{ $visionBlock['title'] ?? 'Vision' }}
                         </h4>
                         <p>
-                            To be the brand of choice in our chosen service markets in Zambia and
-                            in the region
+                            {{ $visionBlock['text'] ?? '' }}
                         </p>
                     </div>
                 </div>
@@ -187,8 +192,7 @@
                             Professionalism
                         </h4>
                         <p>
-                            Investig ationes demons travg vunt lectores legere lyrus quod legunt saepius claritas
-                            est.
+                            We serve clients with practical advice, clear communication, and respect for professional standards.
                         </p>
                     </div>
                 </div>
@@ -198,11 +202,10 @@
                     </div>
                     <div class="media-body">
                         <h4 class="mt-0 mb-3">
-                            MicroMasters Programs
+                            Specialist Knowledge
                         </h4>
                         <p>
-                            Investig ationes demons travg vunt lectores legere lyrus quod legunt saepius claritas
-                            est.
+                            Our work focuses on privacy, data protection compliance, governance, audit readiness, and staff training.
                         </p>
                     </div>
                 </div>
@@ -213,11 +216,10 @@
                     </div>
                     <div class="media-body">
                         <h4 class="mt-0 mb-3">
-                            XSeries Programs
+                            Practical Compliance
                         </h4>
                         <p>
-                            Investig ationes demons travg vunt lectores legere lyrus quod legunt saepius claritas
-                            est.
+                            We help organisations turn legal requirements into workable policies, controls, and day-to-day processes.
                         </p>
                     </div>
                 </div>
@@ -228,11 +230,10 @@
                     </div>
                     <div class="media-body">
                         <h4 class="mt-0 mb-3">
-                            Take The Tour
+                            Client Support
                         </h4>
                         <p>
-                            Investig ationes demons travg vunt lectores legere lyrus quod legunt saepius claritas
-                            est.
+                            We work with teams through assessments, training, implementation support, and ongoing advisory services.
                         </p>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 @section('page_title', 'Outsourced Data Protection Officer (DPO)')
 @section('content')
     <div class="padding-y-60 bg-cover" data-dark-overlay="6"
-         style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat">
+         style="background:url(assets/img/website/services/datapo.jpg) no-repeat">
         <div class="container">
             <h1 class="text-white">
                 Services
@@ -37,7 +37,7 @@
                                 appointment of a DPO, it is advisable and best practice for any organisation, big or
                                 small, to have DPO services, whether internal or external, in order to enhance its
                                 compliance to data protection laws. <a class="link" href="#">Read More</a></p>
-                            <img class="card-img-top w-100" src="assets/img/750/450.jpg" alt="">
+                            <img class="card-img-top w-100" src="assets/img/website/services/datapo.jpg" alt="Outsourced data protection officer">
                         <p>
                                 At Silham Consulting and Training Services, we provide cost effective Outsourced DPO
                                 services that help an organisation meet its compliancy obligations to the Data
@@ -124,7 +124,7 @@
                         </ul>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/carousel_content/certificate.webp" alt="Data protection certification">
                         <div class="card-img-overlay text-white bg-black-0_6">
                             <h4 class="card-title">
                                 Enriched Data Experiences

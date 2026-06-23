@@ -2,7 +2,7 @@
 @section('page_title', 'Raising Awareness through Data Protection Awareness Workshops')
 @section('content')
     <div class="padding-y-60 bg-cover" data-dark-overlay="6"
-         style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat">
+         style="background:url(assets/img/website/carousel_content/OIG4.YjMHNFqv13uewX8vtOPP.jpeg) no-repeat">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 my-2 text-white">
@@ -153,7 +153,7 @@
                         </p>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/carousel_content/263by300side.jpg" alt="Data protection awareness workshop">
                     </div>
                     <div class="card border border-light marginTop-30 shadow-v1">
                         <h4 class="card-header border-bottom mb-0 h6">New & Events</h4>
@@ -164,7 +164,7 @@
                         </ul>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/carousel_content/certificate.webp" alt="Data protection certificate">
                         <div class="card-img-overlay text-white bg-black-0_6">
                             <h4 class="card-title">
                                 Enriched Data Experiences

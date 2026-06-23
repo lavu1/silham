@@ -2,7 +2,7 @@
 @section('page_title', 'Outsourced Data Protection Officer (DPO)')
 @section('content')
     <div class="padding-y-60 bg-cover" data-dark-overlay="6"
-         style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat">
+         style="background:url(assets/img/website/services/audits.jpg) no-repeat">
         <div class="container">
             <h1 class="text-white">
                 Services
@@ -29,7 +29,7 @@
                             <p>
                                 The Zambian Data Protection Act of 2021 requires that annual audits on the compliance of data controllers and
                                 processors are conducted by Data Protection Auditors registered with the Data Protection Commission (DPC)</p>
-                            <img class="card-img-top w-100" src="assets/img/750/450.jpg" alt="">
+                            <img class="card-img-top w-100" src="assets/img/website/services/audits.jpg" alt="Data protection auditor services">
                             <p>
                                 Silham Consulting and Training Services is a registered Data Protection Auditor firm with the DPC
                                 and provides Data Protection Audits as provided for in the Act. Silham follows industry best practices
@@ -100,7 +100,7 @@
                         </ul>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/services/audits.jpg" alt="Data protection auditor services">
                         <div class="card-img-overlay text-white bg-black-0_6">
                             <h4 class="card-title">
                                 Enriched Data Experiences

@@ -113,7 +113,7 @@
 
                 <aside class="col-lg-3">
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/sectors/medical2.jpg" alt="Medical and healthcare data protection">
                     </div>
                     <div class="card border border-light marginTop-30 shadow-v1 p-2">
                         <h4 class="text-center">
@@ -137,7 +137,7 @@
                         </ul>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/sectors/medical1.jpg" alt="Healthcare compliance">
                         <div class="card-img-overlay text-white bg-black-0_6">
                             <h4 class="card-title">
                                 Enriched Data Experiences

@@ -2,7 +2,7 @@
 @section('page_title', 'CEO Attends AUDA-NEPAD Training of Trainers Workshop')
 @section('content')
     <div class="padding-y-60 bg-cover" data-dark-overlay="6"
-     style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat">
+    style="background:url(assets/img/website/sectors/soft2.jpg) no-repeat">
     <div class="container">
         <h1 class="text-white">
             Events

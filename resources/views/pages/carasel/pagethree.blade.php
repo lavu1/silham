@@ -2,7 +2,7 @@
 @section('page_title', 'Achieving Compliance through Outsourced Data Protection Services')
 @section('content')
     <div class="padding-y-60 bg-cover" data-dark-overlay="6"
-         style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat">
+         style="background:url(assets/img/website/carousel_content/DSC_0622.JPG) no-repeat">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 my-2 text-white">
@@ -61,7 +61,7 @@
                             Services provides an Outsourced
                             Data Protection Officer Services.
                         </p>
-                        <img class="card-img-top w-100 mt-3 mb-1" src="assets/img/750/450.jpg" alt="">
+                        <img class="card-img-top w-100 mt-3 mb-1" src="assets/img/website/carousel_content/DSC_0622.JPG" alt="Outsourced data protection services">
 
                         <div class="mb-5">
                             <h4 class="mb-3">Outsourcing data protection services has many advantages, key among them
@@ -138,7 +138,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <img class="card-img-top w-100" src="assets/img/750/450.jpg" alt="">
+                            <img class="card-img-top w-100" src="assets/img/website/carousel_content/outsources.jpg" alt="Outsourced data protection compliance">
                             <div class="col-md-6 my-2">
                                 <h4>
                                     Sectors
@@ -182,7 +182,7 @@
                         </p>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/carousel_content/achieve.jpg" alt="Compliance achievement">
                     </div>
                     <div class="card border border-light marginTop-30 shadow-v1">
                         <h4 class="card-header border-bottom mb-0 h6">New & Events</h4>
@@ -193,7 +193,7 @@
                         </ul>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/carousel_content/certificate.webp" alt="Data protection certificate">
                         <div class="card-img-overlay text-white bg-black-0_6">
                             <h4 class="card-title">
                                 Enriched Data Experiences

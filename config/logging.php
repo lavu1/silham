@@ -32,7 +32,7 @@ return [
     */
 
     'deprecations' => [
-        'channel' => env('LOG_DEPRECATIONS_CHANNEL', 'null'),
+        'channel' => (string) (env('LOG_DEPRECATIONS_CHANNEL', 'single') ?: 'single'),
         'trace' => env('LOG_DEPRECATIONS_TRACE', false),
     ],
 

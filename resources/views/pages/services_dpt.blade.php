@@ -2,7 +2,7 @@
 @section('page_title', 'Data Protection Training')
 @section('content')
     <div class="padding-y-60 bg-cover" data-dark-overlay="6"
-         style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat">
+         style="background:url(assets/img/website/services/trainingone.jpg) no-repeat">
         <div class="container">
             <h1 class="text-white">
                 Services
@@ -111,7 +111,7 @@
                             </ul>
                         </div>
                         <div class="card marginTop-30 shadow-v1 hover:parent">
-                            <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                            <img class="hover:zoomin" src="assets/img/website/services/trainingone.jpg" alt="Data protection training">
                             <div class="card-img-overlay text-white bg-black-0_6">
                                 <h4 class="card-title">
                                     Get the globally recognized,

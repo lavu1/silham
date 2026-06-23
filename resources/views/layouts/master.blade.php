@@ -4,11 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta id="csrf-token" name="csrf-token" content="{{ csrf_token() }}">
-    <meta name="author" content="SILHAM CONSULTING &amp; TRAINING SERVICES">
-
-    <title> @yield('page_title') | {{ config('app.name') }} </title>
 
     @include('partials.inc_top')
 </head>
@@ -22,7 +18,16 @@
 
 @include('partials.header')
 
-@yield('content')
+    @php
+        $cmsBody = cms_fragment(cms_page_slug(), 'body_html', null);
+        $hasCmsBody = is_string($cmsBody) ? trim($cmsBody) !== '' : $cmsBody !== null;
+    @endphp
+
+    @if ($hasCmsBody)
+        {!! cms_render_html((string) $cmsBody) !!}
+    @else
+        @yield('content')
+    @endif
 
 @include('partials.inc_bottom')
 @include('partials.footer')

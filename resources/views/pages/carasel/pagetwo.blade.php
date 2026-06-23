@@ -2,7 +2,7 @@
 @section('page_title', 'Building Capacity for Compliance Readiness through Advanced Data Protection Training')
 @section('content')
     <div class="padding-y-60 bg-cover" data-dark-overlay="6"
-         style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat">
+         style="background:url(assets/img/website/carousel_content/OIG1.Q4T1GGywHaLOICc7vvI1.jpg) no-repeat">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 my-2 text-white">
@@ -55,7 +55,7 @@
                             from non-compliance can
                             be irreparable for an organisation. Compliance is therefore non-negotiable.
                         </p>
-                        <img class="card-img-top w-100" src="assets/img/750/450.jpg" alt="">
+                        <img class="card-img-top w-100" src="assets/img/website/carousel_content/second.jpeg" alt="Advanced data protection training">
                         <p>
                             At Silham Consulting and Training Services, we help make organisations ready to embark on
                             the compliance journey by
@@ -98,7 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                        <img class="card-img-top w-100" src="assets/img/750/450.jpg" alt="">
+                        <img class="card-img-top w-100" src="assets/img/website/carousel_content/opnee.jpeg" alt="Compliance readiness training">
                         <div class="row mt-5">
                             <div class="col-12">
                                 <div class="col-12 mb-4">
@@ -125,7 +125,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <img class="card-img-top w-100" src="assets/img/750/450.jpg" alt="">
+                            <img class="card-img-top w-100" src="assets/img/website/carousel_content/OIG1.Q4T1GGywHaLOICc7vvI1.jpg" alt="Data protection training">
                             <div class="col-md-6 my-2">
                                 <h4>
                                     Sectors
@@ -169,7 +169,7 @@
                         </p>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/carousel_content/certificate.webp" alt="Data protection certificate">
                     </div>
                     <div class="card border border-light marginTop-30 shadow-v1">
                         <h4 class="card-header border-bottom mb-0 h6">New & Events</h4>
@@ -180,7 +180,7 @@
                         </ul>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/carousel_content/OIG1.Q4T1GGywHaLOICc7vvI1.jpg" alt="Data protection training">
                         <div class="card-img-overlay text-white bg-black-0_6">
                             <h4 class="card-title">
                                 Enriched Data Experiences

@@ -2,7 +2,7 @@
 @section('page_title', 'Data Protection Consultancy')
 @section('content')
     <div class="padding-y-60 bg-cover" data-dark-overlay="6"
-         style="background:url(assets/img/breadcrumb-bg.jpg) no-repeat">
+         style="background:url(assets/img/website/services/dpaudits.jpg) no-repeat">
         <div class="container">
             <h1 class="text-white">
                 Services
@@ -26,7 +26,7 @@
                             <h2 class="card-title">
                                 Data Protection Consultancy
                             </h2>
-                            <img class="card-img-top w-100" src="assets/img/750/450.jpg" alt="">
+                            <img class="card-img-top w-100" src="assets/img/website/services/dpaudits.jpg" alt="Data protection consultancy">
                             <p>
                                 Silham Consulting and Training Services is well positioned to provide a variety consultancy
                                 services in privacy and data protection. Organisations are free to call upon us to provide
@@ -98,7 +98,7 @@
                         </ul>
                     </div>
                     <div class="card marginTop-30 shadow-v1 hover:parent">
-                        <img class="hover:zoomin" src="assets/img/262x230/9.jpg" alt="">
+                        <img class="hover:zoomin" src="assets/img/website/services/dpaudits.jpg" alt="Data protection consultancy">
                         <div class="card-img-overlay text-white bg-black-0_6">
                             <h4 class="card-title">
                                 Enriched Data Experiences
