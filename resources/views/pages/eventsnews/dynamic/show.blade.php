@@ -27,6 +27,11 @@
                     <div>
                         {!! cms_render_html($newsEvent->body ?: '') !!}
                     </div>
+                    @if ($newsEvent->slug === 'pecb-course' && ! str_contains((string) $newsEvent->body, 'pecb-cdpo-course-why.png'))
+                        <figure class="mt-4">
+                            <img class="w-100 rounded shadow-v1" src="{{ cms_media_url('assets/img/home/events/pecb-cdpo-course-why.png') }}" alt="Why take the PECB CDPO course">
+                        </figure>
+                    @endif
                     @if ($newsEvent->registration_url)
                         <a href="{{ $newsEvent->registration_url }}" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg mt-4">Register Now</a>
                     @endif
